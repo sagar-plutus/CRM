@@ -1,0 +1,207 @@
+2020-10-22 14:11:13.120 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/swagger/  
+2020-10-22 14:11:13.547 +05:30 [Information] Request finished in 450.1951ms 200 text/html
+2020-10-22 14:11:13.898 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/swagger/v1/swagger.json  
+2020-10-22 14:11:15.708 +05:30 [Information] Request finished in 1808.9046ms 200 application/json
+2020-10-22 14:11:29.162 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/Report/GetDayWiseRateChartDtls?fromDate=22-10-2020&toDate=22-10-2020  
+2020-10-22 14:11:29.743 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.ReportController.GetDayWiseRateChartDtls (PurchaseTrackerAPI)" with arguments (["22-10-2020", "22-10-2020"]) - ModelState is Valid
+2020-10-22 14:11:30.840 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-10-22 14:11:30.899 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.ReportController.GetDayWiseRateChartDtls (PurchaseTrackerAPI)" in 1393.8079ms
+2020-10-22 14:11:31.136 +05:30 [Information] Request finished in 1830.5547ms 200 application/json; charset=utf-8
+2020-10-22 14:11:31.156 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/favicon.ico  
+2020-10-22 14:11:31.185 +05:30 [Information] Request finished in 27.2278ms 404 
+2020-10-22 14:11:40.637 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/Report/GetDayWiseRateChartDtls?fromDate=22-10-2020&toDate=22-10-2020  
+2020-10-22 14:11:40.644 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.ReportController.GetDayWiseRateChartDtls (PurchaseTrackerAPI)" with arguments (["22-10-2020", "22-10-2020"]) - ModelState is Valid
+2020-10-22 14:11:41.322 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-10-22 14:11:41.329 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.ReportController.GetDayWiseRateChartDtls (PurchaseTrackerAPI)" in 683.6903ms
+2020-10-22 14:11:41.335 +05:30 [Information] Request finished in 695.2876ms 200 application/json; charset=utf-8
+2020-10-22 23:45:15.660 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/swagger/  
+2020-10-22 23:45:15.963 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/swagger/swagger-ui-bundle.js  
+2020-10-22 23:45:15.965 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/swagger/swagger-ui.css  
+2020-10-22 23:45:15.969 +05:30 [Information] Request finished in 325.6152ms 200 text/html
+2020-10-22 23:45:15.988 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/swagger/swagger-ui-standalone-preset.js  
+2020-10-22 23:45:16.052 +05:30 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2020-10-22 23:45:16.053 +05:30 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2020-10-22 23:45:16.055 +05:30 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2020-10-22 23:45:16.072 +05:30 [Information] Request finished in 132.9999ms 200 text/css
+2020-10-22 23:45:16.202 +05:30 [Information] Request finished in 235.8578ms 200 application/javascript
+2020-10-22 23:45:16.205 +05:30 [Information] Request finished in 187.5347ms 200 application/javascript
+2020-10-22 23:45:16.906 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/swagger/v1/swagger.json  
+2020-10-22 23:45:18.698 +05:30 [Information] Request finished in 1792.2486ms 200 application/json
+2020-10-22 23:47:57.901 +05:30 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:59678/api/Purchasebooking/GetPurchaseBookingOpenCloseDashboardInfo  
+2020-10-22 23:47:58.047 +05:30 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:59678/api/Purchasebooking/GetTodayRateDashboardInfo?roleId={%22IdUserRole%22:1,%22UserId%22:1,%22RoleId%22:1,%22IsActive%22:1,%22CreatedBy%22:1,%22CreatedOn%22:%222017-01-01T00:00:00%22,%22RoleDesc%22:%22SysAdmin%22,%22EnableAreaAlloc%22:0,%22RoleTypeId%22:1}&sysDate=2020-10-22T23:47  
+2020-10-22 23:47:58.051 +05:30 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:59678/api/Purchasebooking/GetMaterialWiseEnqOrSaudaInfoForDashboard?roleId={%22IdUserRole%22:1,%22UserId%22:1,%22RoleId%22:1,%22IsActive%22:1,%22CreatedBy%22:1,%22CreatedOn%22:%222017-01-01T00:00:00%22,%22RoleDesc%22:%22SysAdmin%22,%22EnableAreaAlloc%22:0,%22RoleTypeId%22:1}&orgId=&isConvertTosauda=0  
+2020-10-22 23:47:58.088 +05:30 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:59678/api/PurchaseVehicleReport/GetVehicleSportEntrydetailsCount?pmId=0&supplierId=0&materialTypeId=0  
+2020-10-22 23:47:58.116 +05:30 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:59678/api/Purchasebooking/GetMaterialWiseEnqOrSaudaInfoForDashboard?roleId={%22IdUserRole%22:1,%22UserId%22:1,%22RoleId%22:1,%22IsActive%22:1,%22CreatedBy%22:1,%22CreatedOn%22:%222017-01-01T00:00:00%22,%22RoleDesc%22:%22SysAdmin%22,%22EnableAreaAlloc%22:0,%22RoleTypeId%22:1}&orgId=&isConvertTosauda=1  
+2020-10-22 23:47:58.118 +05:30 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:59678/api/PurchaseVehicleReport/GetVehicleList?tblPurSchSummaryFilterTO={%22UserId%22:%22%22,%22SupplierId%22:0,%22StatusId%22:0,%22PhaseId%22:0,%22FromDateStr%22:%221603390677862%22,%22ToDateStr%22:%221603390677862%22,%22ProdClassId%22:0,%22IsInStatusIds%22:true,%22ForScheduleActualOrUnloading%22:3,%22SkipDateTime%22:true}  
+2020-10-22 23:47:58.162 +05:30 [Information] Policy execution successful.
+2020-10-22 23:47:58.164 +05:30 [Information] Policy execution successful.
+2020-10-22 23:47:58.166 +05:30 [Information] Policy execution successful.
+2020-10-22 23:47:58.170 +05:30 [Information] Policy execution successful.
+2020-10-22 23:47:58.211 +05:30 [Information] Request finished in 312.661ms 204 
+2020-10-22 23:47:58.213 +05:30 [Information] Policy execution successful.
+2020-10-22 23:47:58.269 +05:30 [Information] Request finished in 157.766ms 204 
+2020-10-22 23:47:58.273 +05:30 [Information] Request finished in 86.2761ms 204 
+2020-10-22 23:47:58.301 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/PurchaseVehicleReport/GetVehicleList?tblPurSchSummaryFilterTO={%22UserId%22:%22%22,%22SupplierId%22:0,%22StatusId%22:0,%22PhaseId%22:0,%22FromDateStr%22:%221603390677862%22,%22ToDateStr%22:%221603390677862%22,%22ProdClassId%22:0,%22IsInStatusIds%22:true,%22ForScheduleActualOrUnloading%22:3,%22SkipDateTime%22:true}  
+2020-10-22 23:47:58.330 +05:30 [Information] Request finished in 310.7287ms 204 
+2020-10-22 23:47:58.365 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/Purchasebooking/GetTodayRateDashboardInfo?roleId={%22IdUserRole%22:1,%22UserId%22:1,%22RoleId%22:1,%22IsActive%22:1,%22CreatedBy%22:1,%22CreatedOn%22:%222017-01-01T00:00:00%22,%22RoleDesc%22:%22SysAdmin%22,%22EnableAreaAlloc%22:0,%22RoleTypeId%22:1}&sysDate=2020-10-22T23:47  
+2020-10-22 23:47:58.409 +05:30 [Information] Policy execution successful.
+2020-10-22 23:47:58.411 +05:30 [Information] Policy execution successful.
+2020-10-22 23:47:58.414 +05:30 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:59678/api/DashboardEntity/GetAllDashboardEntityList?moduleId=5  
+2020-10-22 23:47:58.418 +05:30 [Information] Policy execution successful.
+2020-10-22 23:47:58.429 +05:30 [Information] Request finished in 54.3212ms 204 
+2020-10-22 23:47:58.455 +05:30 [Information] Policy execution successful.
+2020-10-22 23:47:58.519 +05:30 [Information] Request finished in 409.0343ms 204 
+2020-10-22 23:47:58.551 +05:30 [Information] Request finished in 118.0687ms 204 
+2020-10-22 23:47:58.644 +05:30 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:59678/api/PurchaseVehicleReport/GetVehTotalQtyDashboardInfo?loginUserId=  
+2020-10-22 23:47:58.677 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/PurchaseVehicleReport/GetVehicleSportEntrydetailsCount?pmId=0&supplierId=0&materialTypeId=0  
+2020-10-22 23:47:58.708 +05:30 [Information] Policy execution successful.
+2020-10-22 23:47:58.711 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/Purchasebooking/GetPurchaseBookingOpenCloseDashboardInfo  
+2020-10-22 23:47:58.713 +05:30 [Information] Policy execution successful.
+2020-10-22 23:47:58.717 +05:30 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:59678/api/PurchaseVehicleReport/GetVehSummaryForDashboard?tblPurSchSummaryFilterTO={%22UserId%22:%22%22,%22SupplierId%22:0,%22StatusId%22:0,%22PhaseId%22:0,%22FromDateStr%22:%221603390677862%22,%22ToDateStr%22:%221603390677862%22,%22ProdClassId%22:0,%22IsInStatusIds%22:true,%22ForScheduleActualOrUnloading%22:3,%22SkipDateTime%22:false}  
+2020-10-22 23:47:58.720 +05:30 [Information] Policy execution successful.
+2020-10-22 23:47:58.723 +05:30 [Information] Request finished in 41.8687ms 204 
+2020-10-22 23:47:58.731 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/Purchasebooking/GetMaterialWiseEnqOrSaudaInfoForDashboard?roleId={%22IdUserRole%22:1,%22UserId%22:1,%22RoleId%22:1,%22IsActive%22:1,%22CreatedBy%22:1,%22CreatedOn%22:%222017-01-01T00:00:00%22,%22RoleDesc%22:%22SysAdmin%22,%22EnableAreaAlloc%22:0,%22RoleTypeId%22:1}&orgId=&isConvertTosauda=1  
+2020-10-22 23:47:58.735 +05:30 [Information] Policy execution successful.
+2020-10-22 23:47:58.737 +05:30 [Information] Policy execution successful.
+2020-10-22 23:47:58.743 +05:30 [Information] Request finished in 249.5945ms 204 
+2020-10-22 23:47:58.749 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/DashboardEntity/GetAllDashboardEntityList?moduleId=5  
+2020-10-22 23:47:58.752 +05:30 [Information] Policy execution successful.
+2020-10-22 23:47:59.058 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.PurchasebookingController.GetPurchaseBookingOpenCloseDashboardInfo (PurchaseTrackerAPI)" with arguments (null) - ModelState is Valid
+2020-10-22 23:47:59.221 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.DashboardEntityController.GetAllDashboardEntityList (PurchaseTrackerAPI)" with arguments (["5"]) - ModelState is Valid
+2020-10-22 23:47:59.222 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.PurchasebookingController.GetMaterialWiseEnqOrSaudaInfoForDashboard (PurchaseTrackerAPI)" with arguments (["{\"IdUserRole\":1,\"UserId\":1,\"RoleId\":1,\"IsActive\":1,\"CreatedBy\":1,\"CreatedOn\":\"2017-01-01T00:00:00\",\"RoleDesc\":\"SysAdmin\",\"EnableAreaAlloc\":0,\"RoleTypeId\":1}", "", "01-01-0001 00:00:00", "1"]) - ModelState is Valid
+2020-10-22 23:47:59.221 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.PurchasebookingController.GetTodayRateDashboardInfo (PurchaseTrackerAPI)" with arguments (["{\"IdUserRole\":1,\"UserId\":1,\"RoleId\":1,\"IsActive\":1,\"CreatedBy\":1,\"CreatedOn\":\"2017-01-01T00:00:00\",\"RoleDesc\":\"SysAdmin\",\"EnableAreaAlloc\":0,\"RoleTypeId\":1}", "0", "22-10-2020 23:47:00"]) - ModelState is Valid
+2020-10-22 23:47:59.221 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.PurchaseVehicleReportController.GetVehicleSportEntrydetailsCount (PurchaseTrackerAPI)" with arguments (["0", "0", "0"]) - ModelState is Valid
+2020-10-22 23:47:59.221 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.PurchaseVehicleReportController.GetVehicleList (PurchaseTrackerAPI)" with arguments (["{\"UserId\":\"\",\"SupplierId\":0,\"StatusId\":0,\"PhaseId\":0,\"FromDateStr\":\"1603390677862\",\"ToDateStr\":\"1603390677862\",\"ProdClassId\":0,\"IsInStatusIds\":true,\"ForScheduleActualOrUnloading\":3,\"SkipDateTime\":true}"]) - ModelState is Valid
+2020-10-22 23:48:00.348 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-10-22 23:48:00.378 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-10-22 23:48:00.473 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.PurchasebookingController.GetPurchaseBookingOpenCloseDashboardInfo (PurchaseTrackerAPI)" in 1459.0068ms
+2020-10-22 23:48:00.475 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.PurchaseVehicleReportController.GetVehicleSportEntrydetailsCount (PurchaseTrackerAPI)" in 1451.5023ms
+2020-10-22 23:48:00.604 +05:30 [Information] Request finished in 1862.2962ms 200 application/json; charset=utf-8
+2020-10-22 23:48:00.677 +05:30 [Information] Request finished in 1899.6823ms 200 application/json; charset=utf-8
+2020-10-22 23:48:00.740 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/Purchasebooking/GetMaterialWiseEnqOrSaudaInfoForDashboard?roleId={%22IdUserRole%22:1,%22UserId%22:1,%22RoleId%22:1,%22IsActive%22:1,%22CreatedBy%22:1,%22CreatedOn%22:%222017-01-01T00:00:00%22,%22RoleDesc%22:%22SysAdmin%22,%22EnableAreaAlloc%22:0,%22RoleTypeId%22:1}&orgId=&isConvertTosauda=0  
+2020-10-22 23:48:00.769 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/PurchaseVehicleReport/GetVehSummaryForDashboard?tblPurSchSummaryFilterTO={%22UserId%22:%22%22,%22SupplierId%22:0,%22StatusId%22:0,%22PhaseId%22:0,%22FromDateStr%22:%221603390677862%22,%22ToDateStr%22:%221603390677862%22,%22ProdClassId%22:0,%22IsInStatusIds%22:true,%22ForScheduleActualOrUnloading%22:3,%22SkipDateTime%22:false}  
+2020-10-22 23:48:00.770 +05:30 [Information] Policy execution successful.
+2020-10-22 23:48:00.816 +05:30 [Information] Policy execution successful.
+2020-10-22 23:48:00.946 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.PurchasebookingController.GetMaterialWiseEnqOrSaudaInfoForDashboard (PurchaseTrackerAPI)" with arguments (["{\"IdUserRole\":1,\"UserId\":1,\"RoleId\":1,\"IsActive\":1,\"CreatedBy\":1,\"CreatedOn\":\"2017-01-01T00:00:00\",\"RoleDesc\":\"SysAdmin\",\"EnableAreaAlloc\":0,\"RoleTypeId\":1}", "", "01-01-0001 00:00:00", "0"]) - ModelState is Valid
+2020-10-22 23:48:01.012 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.PurchaseVehicleReportController.GetVehSummaryForDashboard (PurchaseTrackerAPI)" with arguments (["{\"UserId\":\"\",\"SupplierId\":0,\"StatusId\":0,\"PhaseId\":0,\"FromDateStr\":\"1603390677862\",\"ToDateStr\":\"1603390677862\",\"ProdClassId\":0,\"IsInStatusIds\":true,\"ForScheduleActualOrUnloading\":3,\"SkipDateTime\":false}"]) - ModelState is Valid
+2020-10-22 23:48:01.077 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-10-22 23:48:01.082 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-10-22 23:48:01.091 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.DashboardEntityController.GetAllDashboardEntityList (PurchaseTrackerAPI)" in 2130.4489ms
+2020-10-22 23:48:01.182 +05:30 [Information] Request finished in 2345.8144ms 204 
+2020-10-22 23:48:01.610 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.PurchasebookingController.GetTodayRateDashboardInfo (PurchaseTrackerAPI)" in 2143.2987ms
+2020-10-22 23:48:01.631 +05:30 [Information] Request finished in 3277.2031ms 200 application/json; charset=utf-8
+2020-10-22 23:48:01.644 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-10-22 23:48:01.680 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/PurchaseVehicleReport/GetVehTotalQtyDashboardInfo?loginUserId=  
+2020-10-22 23:48:01.716 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-10-22 23:48:01.732 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.PurchasebookingController.GetMaterialWiseEnqOrSaudaInfoForDashboard (PurchaseTrackerAPI)" in 913.2659ms
+2020-10-22 23:48:01.820 +05:30 [Information] Policy execution successful.
+2020-10-22 23:48:01.859 +05:30 [Information] Request finished in 1081.1234ms 200 application/json; charset=utf-8
+2020-10-22 23:48:01.969 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.PurchasebookingController.GetMaterialWiseEnqOrSaudaInfoForDashboard (PurchaseTrackerAPI)" in 2688.0986ms
+2020-10-22 23:48:02.048 +05:30 [Information] Request finished in 3247.2001ms 200 application/json; charset=utf-8
+2020-10-22 23:48:02.084 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.PurchaseVehicleReportController.GetVehTotalQtyDashboardInfo (PurchaseTrackerAPI)" with arguments ([""]) - ModelState is Valid
+2020-10-22 23:48:23.948 +05:30 [Warning] Heartbeat took longer than "00:00:01" at "10/22/2020 18:18:09 +00:00".
+2020-10-22 23:48:23.948 +05:30 [Warning] Heartbeat took longer than "00:00:01" at "10/22/2020 18:18:15 +00:00".
+2020-10-22 23:48:23.980 +05:30 [Warning] Heartbeat took longer than "00:00:01" at "10/22/2020 18:18:15 +00:00".
+2020-10-22 23:48:35.844 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-10-22 23:48:41.399 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-10-22 23:48:43.413 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.PurchaseVehicleReportController.GetVehTotalQtyDashboardInfo (PurchaseTrackerAPI)" in 41469.7163ms
+2020-10-22 23:48:43.523 +05:30 [Information] Request finished in 41911.7654ms 200 application/json; charset=utf-8
+2020-10-22 23:48:43.742 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.PurchaseVehicleReportController.GetVehicleList (PurchaseTrackerAPI)" in 44707.9048ms
+2020-10-22 23:48:43.804 +05:30 [Information] Request finished in 45502.3547ms 200 application/json; charset=utf-8
+2020-10-22 23:48:57.008 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-10-22 23:48:57.060 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.PurchaseVehicleReportController.GetVehSummaryForDashboard (PurchaseTrackerAPI)" in 56108.8026ms
+2020-10-22 23:48:57.063 +05:30 [Information] Request finished in 56321.1355ms 200 application/json; charset=utf-8
+2020-10-22 23:50:38.619 +05:30 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:59678/api/User/GetActivePurchaseDropDownList  
+2020-10-22 23:50:38.650 +05:30 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:59678/api/User/GetActivePurchaseDropDownList  
+2020-10-22 23:50:38.619 +05:30 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:59678/api/Material/GetProductClassListByItemCatg?itemProdCategoryE=6  
+2020-10-22 23:50:38.681 +05:30 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:59678/api/Configuration/GetAllSystemConfigList  
+2020-10-22 23:50:38.619 +05:30 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:59678/api/Masters/GetStatusListForDropDown?txnTypeId=500  
+2020-10-22 23:50:38.885 +05:30 [Information] Policy execution successful.
+2020-10-22 23:50:38.946 +05:30 [Information] Policy execution successful.
+2020-10-22 23:50:39.011 +05:30 [Information] Policy execution successful.
+2020-10-22 23:50:39.056 +05:30 [Information] Policy execution successful.
+2020-10-22 23:50:39.308 +05:30 [Information] Policy execution successful.
+2020-10-22 23:50:39.370 +05:30 [Information] Request finished in 841.2879ms 204 
+2020-10-22 23:50:39.528 +05:30 [Information] Request finished in 841.2601ms 204 
+2020-10-22 23:50:39.717 +05:30 [Information] Request finished in 841.2499ms 204 
+2020-10-22 23:50:39.812 +05:30 [Information] Request finished in 1096.7006ms 204 
+2020-10-22 23:50:39.841 +05:30 [Information] Request finished in 841.3656ms 204 
+2020-10-22 23:50:39.873 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/Masters/GetStatusListForDropDown?txnTypeId=500  
+2020-10-22 23:50:39.940 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/Material/GetProductClassListByItemCatg?itemProdCategoryE=6  
+2020-10-22 23:50:40.093 +05:30 [Information] Policy execution successful.
+2020-10-22 23:50:40.379 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/Configuration/GetAllSystemConfigList  
+2020-10-22 23:50:40.439 +05:30 [Information] Policy execution successful.
+2020-10-22 23:50:40.501 +05:30 [Information] Policy execution successful.
+2020-10-22 23:50:40.549 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/User/GetActivePurchaseDropDownList  
+2020-10-22 23:50:40.673 +05:30 [Information] Policy execution successful.
+2020-10-22 23:50:42.556 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.UserController.GetActivePurchaseDropDownList (PurchaseTrackerAPI)" with arguments (null) - ModelState is Valid
+2020-10-22 23:50:42.697 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.ConfigurationController.GetAllSystemConfigList (PurchaseTrackerAPI)" with arguments (null) - ModelState is Valid
+2020-10-22 23:50:42.708 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.MastersController.GetStatusListForDropDown (PurchaseTrackerAPI)" with arguments (["500"]) - ModelState is Valid
+2020-10-22 23:50:42.903 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.MaterialController.GetProductClassListByItemCatg (PurchaseTrackerAPI)" with arguments (["SCRAP_OR_WASTE"]) - ModelState is Valid
+2020-10-22 23:50:43.320 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-10-22 23:50:43.410 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-10-22 23:50:43.460 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.MastersController.GetStatusListForDropDown (PurchaseTrackerAPI)" in 994.9294ms
+2020-10-22 23:50:43.488 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-10-22 23:50:43.507 +05:30 [Information] Request finished in 3680.5355ms 200 application/json; charset=utf-8
+2020-10-22 23:50:43.557 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.UserController.GetActivePurchaseDropDownList (PurchaseTrackerAPI)" in 1176.8679ms
+2020-10-22 23:50:43.582 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/User/GetActivePurchaseDropDownList  
+2020-10-22 23:50:43.584 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.ConfigurationController.GetAllSystemConfigList (PurchaseTrackerAPI)" in 1206.5266ms
+2020-10-22 23:50:43.613 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-10-22 23:50:43.615 +05:30 [Information] Policy execution successful.
+2020-10-22 23:50:43.619 +05:30 [Information] Request finished in 3680.6914ms 200 application/json; charset=utf-8
+2020-10-22 23:50:43.626 +05:30 [Information] Request finished in 3352.6795ms 200 application/json; charset=utf-8
+2020-10-22 23:50:43.725 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.MaterialController.GetProductClassListByItemCatg (PurchaseTrackerAPI)" in 1190.7694ms
+2020-10-22 23:50:43.730 +05:30 [Information] Request finished in 3787.4732ms 200 application/json; charset=utf-8
+2020-10-22 23:50:43.773 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.UserController.GetActivePurchaseDropDownList (PurchaseTrackerAPI)" with arguments (null) - ModelState is Valid
+2020-10-22 23:50:43.998 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-10-22 23:50:44.011 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.UserController.GetActivePurchaseDropDownList (PurchaseTrackerAPI)" in 268.7809ms
+2020-10-22 23:50:44.017 +05:30 [Information] Request finished in 475.9686ms 200 application/json; charset=utf-8
+2020-10-22 23:50:50.387 +05:30 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:59678/api/Report/GetDayWiseRateChartReport?fromDate=2020-10-22T00:00&toDate=2020-10-22T00:00  
+2020-10-22 23:50:50.390 +05:30 [Information] Policy execution successful.
+2020-10-22 23:50:50.414 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/Report/GetDayWiseRateChartReport?fromDate=2020-10-22T00:00&toDate=2020-10-22T00:00  
+2020-10-22 23:50:50.438 +05:30 [Information] Request finished in 5.4512ms 204 
+2020-10-22 23:50:50.469 +05:30 [Information] Policy execution successful.
+2020-10-22 23:50:50.726 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.ReportController.GetDayWiseRateChartReport (PurchaseTrackerAPI)" with arguments (["2020-10-22T00:00", "2020-10-22T00:00"]) - ModelState is Valid
+2020-10-22 23:51:00.501 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-10-22 23:51:02.149 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.ReportController.GetDayWiseRateChartReport (PurchaseTrackerAPI)" in 11667.8432ms
+2020-10-22 23:51:02.156 +05:30 [Information] Request finished in 11756.1683ms 200 application/json; charset=utf-8
+2020-10-22 23:51:09.306 +05:30 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:59678/api/Report/PrintListOfMasterReport?fromDate=2020-10-22T00:00&toDate=2020-10-22T00:00  
+2020-10-22 23:51:09.376 +05:30 [Information] Policy execution successful.
+2020-10-22 23:51:09.391 +05:30 [Information] Request finished in 73.5907ms 204 
+2020-10-22 23:51:09.418 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/Report/PrintListOfMasterReport?fromDate=2020-10-22T00:00&toDate=2020-10-22T00:00  
+2020-10-22 23:51:09.695 +05:30 [Information] Policy execution successful.
+2020-10-22 23:51:09.714 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.ReportController.PrintListOfMasterReport (PurchaseTrackerAPI)" with arguments (["2020-10-22T00:00", "2020-10-22T00:00"]) - ModelState is Valid
+2020-10-22 23:51:30.448 +05:30 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:59678/api/Report/PrintListOfMasterReport?fromDate=2020-10-22T00:00&toDate=2020-10-22T00:00  
+2020-10-22 23:51:30.503 +05:30 [Information] Policy execution successful.
+2020-10-22 23:51:30.506 +05:30 [Information] Request finished in 187.8729ms 204 
+2020-10-22 23:51:32.517 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-10-22 23:51:32.520 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.ReportController.PrintListOfMasterReport (PurchaseTrackerAPI)" in 22815.5199ms
+2020-10-22 23:51:32.523 +05:30 [Information] Request finished in 23133.8214ms 200 application/json; charset=utf-8
+2020-10-22 23:51:32.741 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/Report/PrintListOfMasterReport?fromDate=2020-10-22T00:00&toDate=2020-10-22T00:00  
+2020-10-22 23:51:32.744 +05:30 [Information] Policy execution successful.
+2020-10-22 23:51:32.967 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.ReportController.PrintListOfMasterReport (PurchaseTrackerAPI)" with arguments (["2020-10-22T00:00", "2020-10-22T00:00"]) - ModelState is Valid
+2020-10-22 23:51:41.689 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-10-22 23:51:41.695 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.ReportController.PrintListOfMasterReport (PurchaseTrackerAPI)" in 8869.1907ms
+2020-10-22 23:51:41.701 +05:30 [Information] Request finished in 8957.6601ms 200 application/json; charset=utf-8
+2020-10-22 23:52:35.896 +05:30 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:59678/api/Report/PrintListOfMasterReport?fromDate=2020-10-21T00:00&toDate=2020-10-22T00:00  
+2020-10-22 23:52:35.899 +05:30 [Information] Policy execution successful.
+2020-10-22 23:52:35.902 +05:30 [Information] Request finished in 5.5466ms 204 
+2020-10-22 23:52:35.908 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/Report/PrintListOfMasterReport?fromDate=2020-10-21T00:00&toDate=2020-10-22T00:00  
+2020-10-22 23:52:35.910 +05:30 [Information] Policy execution successful.
+2020-10-22 23:52:35.913 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.ReportController.PrintListOfMasterReport (PurchaseTrackerAPI)" with arguments (["2020-10-21T00:00", "2020-10-22T00:00"]) - ModelState is Valid
+2020-10-22 23:53:01.139 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-10-22 23:53:01.142 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.ReportController.PrintListOfMasterReport (PurchaseTrackerAPI)" in 25229.1727ms
+2020-10-22 23:53:01.145 +05:30 [Information] Request finished in 25236.8713ms 200 application/json; charset=utf-8
+2020-10-22 23:59:18.702 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/swagger/  
+2020-10-22 23:59:18.894 +05:30 [Information] Request finished in 243.5524ms 200 text/html
+2020-10-22 23:59:19.458 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/swagger/v1/swagger.json  
+2020-10-22 23:59:20.806 +05:30 [Information] Request finished in 1347.8585ms 200 application/json
+2020-10-22 23:59:20.906 +05:30 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:59678/api/Report/PrintListOfMasterReport?fromDate=2020-10-21T00:00&toDate=2020-10-22T00:00  
+2020-10-22 23:59:20.923 +05:30 [Information] Policy execution successful.
+2020-10-22 23:59:20.940 +05:30 [Information] Request finished in 31.8868ms 204 
+2020-10-22 23:59:20.947 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/Report/PrintListOfMasterReport?fromDate=2020-10-21T00:00&toDate=2020-10-22T00:00  
+2020-10-22 23:59:20.952 +05:30 [Information] Policy execution successful.
+2020-10-22 23:59:21.485 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.ReportController.PrintListOfMasterReport (PurchaseTrackerAPI)" with arguments (["2020-10-21T00:00", "2020-10-22T00:00"]) - ModelState is Valid
+2020-10-22 23:59:49.703 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-10-22 23:59:49.747 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.ReportController.PrintListOfMasterReport (PurchaseTrackerAPI)" in 28461.6038ms
+2020-10-22 23:59:49.751 +05:30 [Information] Request finished in 28804.018ms 200 application/json; charset=utf-8

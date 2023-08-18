@@ -1,0 +1,57 @@
+2022-03-11 18:51:29.354 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/InternalTransfer/GetGenericMasterData?IdDimension=20  
+2022-03-11 18:51:29.586 +05:30 [Information] Policy execution successful.
+2022-03-11 18:51:30.499 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.InternalTransferController.GetGenericMasterData (PurchaseTrackerAPI)" with arguments (["20"]) - ModelState is Valid
+2022-03-11 18:51:30.594 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2022-03-11 18:51:30.693 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.InternalTransferController.GetGenericMasterData (PurchaseTrackerAPI)" in 373.2146ms
+2022-03-11 18:51:30.735 +05:30 [Information] Request finished in 1406.7788ms 200 application/json; charset=utf-8
+2022-03-11 19:09:20.223 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/InternalTransfer/GetGenericMasterData?IdDimension=21  
+2022-03-11 19:09:20.223 +05:30 [Information] Policy execution successful.
+2022-03-11 19:09:20.227 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.InternalTransferController.GetGenericMasterData (PurchaseTrackerAPI)" with arguments (["21"]) - ModelState is Valid
+2022-03-11 19:09:20.294 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2022-03-11 19:09:20.294 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.InternalTransferController.GetGenericMasterData (PurchaseTrackerAPI)" in 68.8849ms
+2022-03-11 19:09:20.295 +05:30 [Information] Request finished in 71.8931ms 200 application/json; charset=utf-8
+2022-03-11 19:09:29.547 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/InternalTransfer/GetGenericMasterData?IdDimension=23  
+2022-03-11 19:09:29.547 +05:30 [Information] Policy execution successful.
+2022-03-11 19:09:29.547 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.InternalTransferController.GetGenericMasterData (PurchaseTrackerAPI)" with arguments (["23"]) - ModelState is Valid
+2022-03-11 19:09:29.563 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2022-03-11 19:09:29.563 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.InternalTransferController.GetGenericMasterData (PurchaseTrackerAPI)" in 15.5923ms
+2022-03-11 19:09:29.563 +05:30 [Information] Request finished in 15.9676ms 200 application/json; charset=utf-8
+2022-03-11 19:13:42.486 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/InternalTransfer/GetGenericMasterData?IdDimension=23  
+2022-03-11 19:13:42.486 +05:30 [Information] Policy execution successful.
+2022-03-11 19:13:42.487 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.InternalTransferController.GetGenericMasterData (PurchaseTrackerAPI)" with arguments (["23"]) - ModelState is Valid
+2022-03-11 19:13:42.502 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2022-03-11 19:13:42.504 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.InternalTransferController.GetGenericMasterData (PurchaseTrackerAPI)" in 17.4872ms
+2022-03-11 19:13:42.505 +05:30 [Information] Request finished in 19.0105ms 200 application/json; charset=utf-8
+2022-03-11 19:13:46.092 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/InternalTransfer/GetGenericMasterData?IdDimension=22  
+2022-03-11 19:13:46.093 +05:30 [Information] Policy execution successful.
+2022-03-11 19:13:46.093 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.InternalTransferController.GetGenericMasterData (PurchaseTrackerAPI)" with arguments (["22"]) - ModelState is Valid
+2022-03-11 19:13:46.106 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2022-03-11 19:13:46.107 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.InternalTransferController.GetGenericMasterData (PurchaseTrackerAPI)" in 14.0125ms
+2022-03-11 19:13:46.107 +05:30 [Information] Request finished in 14.7281ms 200 application/json; charset=utf-8
+2022-03-11 19:13:49.235 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/InternalTransfer/GetGenericMasterData?IdDimension=24  
+2022-03-11 19:13:49.235 +05:30 [Information] Policy execution successful.
+2022-03-11 19:13:49.237 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.InternalTransferController.GetGenericMasterData (PurchaseTrackerAPI)" with arguments (["24"]) - ModelState is Valid
+2022-03-11 19:13:49.253 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2022-03-11 19:13:49.254 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.InternalTransferController.GetGenericMasterData (PurchaseTrackerAPI)" in 17.6901ms
+2022-03-11 19:13:49.255 +05:30 [Information] Request finished in 20.283ms 200 application/json; charset=utf-8
+2022-03-11 19:25:56.726 +05:30 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:59678/api/InternalTransfer/GetAllTranferVehical  
+2022-03-11 19:25:56.727 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/InternalTransfer/GetApprovalUserList  
+2022-03-11 19:25:56.727 +05:30 [Information] Policy execution successful.
+2022-03-11 19:25:56.727 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/Masters/GetVehicalTypeList  
+2022-03-11 19:25:56.727 +05:30 [Information] Policy execution successful.
+2022-03-11 19:25:56.731 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.InternalTransferController.GetApprovalUserList (PurchaseTrackerAPI)" with arguments (null) - ModelState is Valid
+2022-03-11 19:25:56.732 +05:30 [Information] Policy execution successful.
+2022-03-11 19:25:56.751 +05:30 [Information] Request finished in 25.6034ms 204 
+2022-03-11 19:25:56.758 +05:30 [Information] Request starting HTTP/1.1 POST http://localhost:59678/api/InternalTransfer/GetAllTranferVehical application/json 27
+2022-03-11 19:25:56.759 +05:30 [Information] Policy execution successful.
+2022-03-11 19:25:56.778 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.MastersController.GetVehicalTypeList (PurchaseTrackerAPI)" with arguments (null) - ModelState is Valid
+2022-03-11 19:25:57.072 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.InternalTransferController.GetAllInternalTranferVehical (PurchaseTrackerAPI)" with arguments (["PurchaseTrackerAPI.Models.InternalTransferFilterTO"]) - ModelState is Valid
+2022-03-11 19:25:57.170 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2022-03-11 19:25:57.202 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.InternalTransferController.GetApprovalUserList (PurchaseTrackerAPI)" in 470.4883ms
+2022-03-11 19:25:57.202 +05:30 [Information] Request finished in 475.1468ms 200 application/json; charset=utf-8
+2022-03-11 19:25:57.328 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2022-03-11 19:25:57.344 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.InternalTransferController.GetAllInternalTranferVehical (PurchaseTrackerAPI)" in 561.7514ms
+2022-03-11 19:25:57.350 +05:30 [Information] Request finished in 592.3868ms 200 application/json; charset=utf-8
+2022-03-11 19:25:57.471 +05:30 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2022-03-11 19:25:57.471 +05:30 [Information] Executed action "PurchaseTrackerAPI.Controllers.MastersController.GetVehicalTypeList (PurchaseTrackerAPI)" in 712.5594ms
+2022-03-11 19:25:57.471 +05:30 [Information] Request finished in 744.2195ms 200 application/json; charset=utf-8

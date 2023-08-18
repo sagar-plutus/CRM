@@ -1,0 +1,6 @@
+2020-10-23 00:01:35.460 +05:30 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:59678/api/Report/PrintListOfMasterReport?fromDate=2020-10-21T00:00&toDate=2020-10-22T00:00  
+2020-10-23 00:01:35.467 +05:30 [Information] Policy execution successful.
+2020-10-23 00:01:35.476 +05:30 [Information] Request finished in 9.489ms 204 
+2020-10-23 00:01:35.496 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/api/Report/PrintListOfMasterReport?fromDate=2020-10-21T00:00&toDate=2020-10-22T00:00  
+2020-10-23 00:01:35.500 +05:30 [Information] Policy execution successful.
+2020-10-23 00:01:35.517 +05:30 [Information] Executing action method "PurchaseTrackerAPI.Controllers.ReportController.PrintListOfMasterReport (PurchaseTrackerAPI)" with arguments (["2020-10-21T00:00", "2020-10-22T00:00"]) - ModelState is Valid

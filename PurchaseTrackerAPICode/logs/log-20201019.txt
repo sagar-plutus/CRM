@@ -1,0 +1,13 @@
+2020-10-19 19:34:38.234 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/swagger/  
+2020-10-19 19:34:38.481 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/swagger/swagger-ui.css  
+2020-10-19 19:34:38.484 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/swagger/swagger-ui-standalone-preset.js  
+2020-10-19 19:34:38.495 +05:30 [Information] Request finished in 305.4724ms 200 text/html
+2020-10-19 19:34:38.514 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/swagger/swagger-ui-bundle.js  
+2020-10-19 19:34:38.566 +05:30 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2020-10-19 19:34:38.568 +05:30 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2020-10-19 19:34:38.570 +05:30 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2020-10-19 19:34:38.591 +05:30 [Information] Request finished in 111.3927ms 200 text/css
+2020-10-19 19:34:38.672 +05:30 [Information] Request finished in 133.1707ms 200 application/javascript
+2020-10-19 19:34:38.675 +05:30 [Information] Request finished in 163.9069ms 200 application/javascript
+2020-10-19 19:34:39.433 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:59678/swagger/v1/swagger.json  
+2020-10-19 19:34:41.846 +05:30 [Information] Request finished in 2410.4562ms 200 application/json
