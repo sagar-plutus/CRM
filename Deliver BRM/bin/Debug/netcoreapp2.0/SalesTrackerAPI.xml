@@ -1,0 +1,2782 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SalesTrackerAPI</name>
+    </assembly>
+    <members>
+        <member name="M:SalesTrackerAPI.BL.DimensionBL.GetCallBySelfForDropDown">
+            <summary>
+            Sanjay [2018-03-21] For Call By Self Drop Down in Tasktracker CRM Ext
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.DimensionBL.GetArrangeForDropDown">
+            <summary>
+            Sanjay [2018-03-21] For Call By Self Drop Down in Tasktracker CRM Ext
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.DimensionBL.GetArrangeVisitToDropDown">
+            <summary>
+            Sanjay [2018-03-21] For Call By Self Drop Down in Tasktracker CRM Ext
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:SalesTrackerAPI.BL.DimensionBL.GetUserListDepartmentWise(System.Int32)" -->
+        <member name="M:SalesTrackerAPI.BL.DimProdSpecDescBL.SelectAllDimProdSpecDescriptionList">
+            <summary>
+            Added by vinod Dated:12/12/2017 for the select of max record from the product Specification 
+            </summary>
+            <returns></returns>
+            
+        </member>
+        <member name="M:SalesTrackerAPI.BL.DimStatusBL.SelectAllDimStatusList(System.Int32)">
+            <summary>
+            Sanjay [2017-03-07] Returns list of status against given transaction type
+            If param value= 0 then return all statuses
+            </summary>
+            <param name="txnTypeId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.DimUnitMeasuresBL.SelectAllUnitMeasuresListForDropDown(System.Int32)">
+            <summary>
+            Vaibhav [13-Sep-2017] Added to select all measurement units for drop down
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.DimUnitMeasuresBL.SelectAllUnitMeasuresForDropDownByCatId(System.Int32)">
+            <summary>
+            Kiran [08-Sep-2018] Added to select all measurement units for drop down Using CatId
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.FinalBookingData.InsertFinalInvoiceDocumentDetails(SalesTrackerAPI.Models.TempInvoiceDocumentDetailsTO,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            [28-05-2018]:Vijaymala added to save data in enquiry invoice document details
+            </summary>
+            <param name="tempInvoiceDocumentDetailsTO"></param>
+            <param name="conn"></param>
+            <param name="tran"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.FinalEnquiryData.InsertEnquiryInvoiceDocumentDetails(SalesTrackerAPI.Models.TempInvoiceDocumentDetailsTO,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            [28-05-2018]:Vijaymala added to save data in enquiry invoice document details
+            </summary>
+            <param name="tempInvoiceDocumentDetailsTO"></param>
+            <param name="conn"></param>
+            <param name="tran"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:SalesTrackerAPI.BL.TblAddressBL.SelectOrgAddressWrtAddrType(System.Int32,SalesTrackerAPI.StaticStuff.Constants.AddressTypeE)" -->
+        <member name="M:SalesTrackerAPI.BL.TblAlertSubscribersBL.SelectTblAlertSubscribersByAlertDefId(System.Int32)">
+            <summary>
+            Priyanka [27-09-2018] 
+            </summary>
+            <param name="alertDefId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblAlertSubscribersBL.UpdateAlertSubscribers(SalesTrackerAPI.Models.TblAlertSubscribersTO)">
+            <summary>
+            Priyanka [27-09-2018]
+            </summary>
+            <param name="tblAlertSubscribersTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblAlertSubscriptSettingsBL.SelectTblAlertSubscriptSettingsFromNotifyId(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Priyanka [27-09-18] : Added to get the tblAlertSubscriptSetting TO from subscriptionId.
+            </summary>
+            <param name="NotificationTypeId"></param>
+            <param name="SubscriptionId"></param>
+            <param name="AlertDefId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblBookingDelAddrBL.SelectExistingBookingAddrListByDealerId(System.Int32,System.String)">
+            <summary>
+             Aditee [04-02-2020] : Added to get the existing booking address from existing bookings.
+            </summary>
+            <param name="dealerOrgId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblBookingExtBL.SelectEmptyBookingExtList(System.Int32,System.Int32)">
+            <summary>
+            Sanjay [2017-03-27] This list will return all material alongwith prod cat and spec
+            Required while showing popup to take material wise ,spec wise qty while booking
+            </summary>
+            <param name="prodCatgId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblBookingsBL.SelectAllBookingsListFromBookingDisplayNo(System.Int32,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Priyanka [28-03-2019]
+            </summary>
+            <param name="bookingDisplayNo"></param>
+            <param name="conn"></param>
+            <param name="tran"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblBookingsBL.SelectAllBookingsListForApproval">
+            <summary>
+            Sanjay [2017-02-23] Wil  return list of all booking out of quota and rate band
+            and booking status = New
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblBookingsBL.SelectAllBookingsListForAcceptance(System.Int32,System.Collections.Generic.List{SalesTrackerAPI.Models.TblUserRoleTO})">
+            <summary>
+            Sanjay [2017-02-27] Will return list of all bookings of given cnf which are beyond quota and Rate Band
+            and Approved By Directors. This will be for Acceptance By Cnf
+            </summary>
+            <param name="cnfId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblBookingsBL.SelectAllBookingList(System.Int32,System.Int32,System.Collections.Generic.List{SalesTrackerAPI.Models.TblUserRoleTO})">
+            <summary>
+            Sanjay [2017-02-23] This will return list of booking to show for loading
+            Only Apporved and having Pending Qty > 0 bookings will be returned.
+            </summary>
+            <param name="cnfId"></param>
+            <param name="dealerId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblBookingsBL.SelectBookingSummaryList(System.Int32,System.Int32,System.DateTime,System.DateTime,System.Collections.Generic.List{SalesTrackerAPI.Models.TblUserRoleTO},System.Int32)">
+            <summary>
+            Priyanka [21-03-2018]
+            </summary>
+            <param name="idBooking"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblBookingsBL.SelectBookingsTOWithDetails(System.Int32)">
+            <summary>
+            Sanjay [2017-03-03] To Get the Details of Given Booking with child details
+            </summary>
+            <param name="idBooking"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblBookingsBL.SelectBookingListForGraph(System.Int32,System.Collections.Generic.List{SalesTrackerAPI.Models.TblUserRoleTO},System.Int32)">
+            <summary>
+            Vijaymala [2017-09-11] added to get booking list to generate booking graph
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblBookingsBL.UpdateBookingPendingQty(SalesTrackerAPI.Models.TblBookingsTO,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Sanjay [2017-02-17] To Update the Pending Booking qty after the Loading activity is done
+            </summary>
+            <param name="tblBookingsTO"></param>
+            <param name="conn"></param>
+            <param name="tran"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblBookingsBL.GetBookingTotalRate(SalesTrackerAPI.Models.TblBookingsTO,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Saket [2018-05-04] Added to get the total value against booking.
+            </summary>
+            <param name="tblBookingsTO"></param>
+            <param name="conn"></param>
+            <param name="tran"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblCnfDealersBL.TransferDealerToCnfDealerReleationship">
+            <summary>
+            Sanjay [2017-06-07] This is one time utility function for updating the cnf and dealer relationship in new table
+            </summary>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblCompetitorExtBL.SelectCompetitorListOnBrandId(System.Int32)">
+            <summary>
+            Sudhir[17-APR-2018] Added for getCompetitorList Based on BrandId.
+            </summary>
+            <param name="brandId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblConfigParamsBL.SelectTblConfigParamsValByName(System.String)">
+            <summary>
+            GJ@20170810 : Get the Configuration value by Name 
+            </summary>
+            <param name="configParamName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblDocumentDetailsBL.UploadDocumentWithConnTran(System.Collections.Generic.List{SalesTrackerAPI.Models.TblDocumentDetailsTO},System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Vijaymala added[22-05-2018]added:to upload  document with connection and transaction
+            </summary>
+            <param name="tblDocumentDetailsTOList"></param>
+            <param name="conn"></param>
+            <param name="tran"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblEnquiryDtlBL.SelectAllTblEnquiryDtl(System.String)">
+            <summary>
+             [2017-12-01]Vijaymala:Added to get enquiry detail List  of  organization
+            </summary>
+            <param name="dealerId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblEnquiryDtlBL.SelectEnquiryDtlList(System.Int32)">
+            <summary>
+             [2017-11-29]Vijaymala:Added to get enquiry detail of particular organization
+            </summary>
+            <param name="dealerId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblEnquiryDtlBL.SaveOrgEnquiryDtl(System.Collections.Generic.List{SalesTrackerAPI.Models.TblEnquiryDtlTO},System.Int32)">
+            <summary>
+            [04-12-2017]Vijaymala :Added to save  enquiry detail of organization which exports from excel
+            </summary>
+            <param name="tblEnquiryDtlTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.SelectAllTblInvoiceList(System.DateTime,System.DateTime,System.Int32,System.Int32,System.Int32,System.Collections.Generic.List{SalesTrackerAPI.Models.TblUserRoleTO},System.String)">
+            <summary>
+            Ramdas.w @24102017 this method is  Get Generated Invoice List
+            </summary>
+            <param name="fromDate"></param>
+            <param name="toDate"></param>
+            <param name="isConfirm"></param>
+            <param name="cnfId"></param>
+            <param name="dealerID"></param>
+            <param name="userRoleTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.SelectTblInvoiceByStatus(System.Int32,System.Int32)">
+            <summary>
+            Ramdas.W:@22092017:API This method is used to Get List of Invoice By Status
+            </summary>
+            <param name="StatusId"></param>
+            <param name="distributorOrgId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.SelectAllRptInvoiceList(System.DateTime,System.DateTime,System.Int32,System.String)">
+            <summary>
+            Vijaymala[15-09-2017] Added To Get Invoice List To Generate Report
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.SelectInvoiceExportList(System.DateTime,System.DateTime,System.Int32,System.String)">
+            <summary>
+            Vijaymala[06-10-2017] Added To Get Invoice List To Generate Invoice Excel
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.SelectHsnExportList(System.DateTime,System.DateTime,System.Int32,System.String)">
+            <summary>
+            Vijaymala[07-10-2017] Added To Get Invoice List To Generate Invoice Excel
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.SelectSalesInvoiceListForReport(System.DateTime,System.DateTime,System.Int32,System.String,System.Int32)">
+            <summary>
+            Vijaymala[11-01-2018] Added To Get Sales Invoice List To Generate Report
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.SelectAllTNotifiedblInvoiceList(System.DateTime,System.DateTime,System.Int32,System.String)">
+            <summary>
+            Vijaymala added [09-05-2018]:To get notified invoices list
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.InsertTblInvoice(SalesTrackerAPI.Models.TblInvoiceTO)">
+            <summary>
+            RW:14092017:API This Methos is used to Add new Invoice 
+            </summary>
+            <param name="tblInvoiceTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.SelectInvoiceListFromLoadingSlipIds(System.String,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Saket [2018-11-05] Added
+            </summary>
+            <param name="loadingSlipIds"></param>
+            <param name="conn"></param>
+            <param name="tran"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.SaveInvoiceDocumentDetails(SalesTrackerAPI.Models.TblInvoiceTO,System.Collections.Generic.List{SalesTrackerAPI.Models.TblDocumentDetailsTO},System.Int32)">
+            <summary>
+            Vijaymala[22-05-2018] : Added To save invoice document details.
+            </summary>
+            <returns></returns>
+            
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.InsertInvoiceDocumentDetails(SalesTrackerAPI.Models.TblInvoiceTO,System.Collections.Generic.List{SalesTrackerAPI.Models.TblDocumentDetailsTO},System.Int32,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Vijaymala[22-05-2018] : Added To save invoice document details.
+            </summary>
+            <returns></returns>
+            
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.updateInvoiceToCalc(SalesTrackerAPI.Models.TblInvoiceTO,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction,System.Boolean)">
+            <summary>
+            GJ@20170926 : Update the Invoice To calculation
+            </summary>
+            <param name="tblInvoiceTO"></param>
+            <param name="conn"></param>
+            <param name="tran"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.UpdateInvoiceConfrimNonConfirmDetails(SalesTrackerAPI.Models.TblInvoiceTO,System.Int32)">
+            <summary>
+            GJ@20171001 : update the Invoice ConfirmNonConfirm Status with Calculation
+            </summary>
+            <param name="idInvoice"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.UpdateInvoiceAfterloadingSlipOut(System.Int32,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Vijaymala [30-03-2018] added:to update invoice deliveredOn date after loading slip out
+            </summary>
+            <param name="idInvoice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.DeactivateInvoiceDocumentDetails(SalesTrackerAPI.Models.TempInvoiceDocumentDetailsTO,System.Int32)">
+            <summary>
+            Vijaymala[22-05-2018] : Added To deactivate invoice document details.
+            </summary>
+            <returns></returns>
+            
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.SelectOtherTaxDetailsReport(System.DateTime,System.DateTime,System.Int32,System.Int32,System.String)">
+            <summary>
+            Priyanka [26-03-2018] : Added to get the other item Invoice Tax report.
+            </summary>
+            <param name="frmDt"></param>
+            <param name="toDt"></param>
+            <param name="isConfirm"></param>
+            <param name="otherTaxId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.UpdateBookingQty(System.Double@,SalesTrackerAPI.Models.TblBookingsTO,SalesTrackerAPI.Models.TblBookingExtTO)">
+             <summary>
+            Prajakta [2020-05-04] Update Booking Qty
+             </summary>
+             <param name="adjustedBookQty"></param>
+             <param name="tblBookingsTO"></param>
+             <param name="tblBookingExtTO"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.GenerateEInvoice(System.Int32,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Dhananjay[18-11-2020] : Added To Generate eInvvoice.
+            </summary>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.EInvoice_OauthToken(System.Int32,System.String,System.Boolean,System.Int32)">
+            <summary>
+            Dhananjay[18-11-2020] : Added To Get Oauth Token for eInvvoice.
+            </summary>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.EInvoice_Authentication(System.Int32,System.String,System.String,System.Boolean,System.Int32)">
+            <summary>
+            Dhananjay[18-11-2020] : Added To Get Authentication for eInvvoice.
+            </summary>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.GetTblEInvoiceApiTO(System.Int32)">
+            <summary>
+            Dhananjay[06-01-2021] : Added To Generate eInvvoice.
+            </summary>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.EInvoice_Generate(SalesTrackerAPI.Models.TblInvoiceTO,System.Int32,System.String,System.String,System.Int32)">
+            <summary>
+            Dhananjay[18-11-2020] : Added To Generate eInvvoice.
+            </summary>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.CancelEInvoice(System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Dhananjay[18-11-2020] : Added To Generate eInvvoice.
+            </summary>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.GetAndUpdateEInvoice(System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Dhananjay[01-03-2021] : Added To Get and Update eInvvoice.
+            </summary>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.EInvoice_GetAndUpdate(SalesTrackerAPI.Models.TblInvoiceTO,System.Int32,System.String,System.String)">
+            <summary>
+            Dhananjay[01-03-2021] : Added To Get and Update eInvvoice.
+            </summary>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.GenerateEWayBill(System.Int32,System.Int32,System.Decimal,System.Boolean)">
+            <summary>
+            Dhananjay[18-11-2020] : Added To Generate ewaybill.
+            </summary>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceBL.CancelEWayBill(System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Dhananjay[18-11-2020] : Added To Cancel ewaybill.
+            </summary>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblInvoiceItemDetailsBL.SelectTblInvoiceItemDetailsTOByInvoice(System.Int32)">
+            <summary>
+            Ramdas.w @14-12-2017 : get other Tax by Invoice 
+            </summary>
+            <param name="idInvoice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblLoadingBL.SelectAllTblLoadingByBookingId(System.Int32)">
+            <summary>
+            Vijaymala[24-04-2018] added to get loading details by using booking id
+            </summary>
+            <param name="bookingId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblLoadingBL.SelectLoadingStatusGraph(System.Collections.Generic.List{SalesTrackerAPI.Models.TblUserRoleTO},System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32)">
+            <summary>
+            Sudhir[18-APR-2018] Added for Loading Status Showing GraphWise on CNF
+            </summary>
+            <param name="tblUserRoleTO"></param>
+            <param name="orgId"></param>
+            <param name="sysDate"></param>
+            <param name="loadingType"></param>
+            <param name="dealerOrgId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblLoadingBL.UpdateBookingQty(System.Collections.Generic.List{SalesTrackerAPI.Models.TblLoadingSlipExtTO},System.Int32,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Prajakta[2020-02-05] Update Booking pending qty
+            </summary>
+            <param name="loadingSlipExtTOList"></param>
+            <param name="bookingId"></param>
+            <param name="conn"></param>
+            <param name="tran"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblLoadingBL.IsVehicleWaitingForGross(SalesTrackerAPI.Models.TblLoadingTO,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            GJ@20171107 : check the Vehicle is complete the all material weight
+            </summary>
+            <param name="tblLoadingTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblLoadingBL.getWeighingGrossTo(SalesTrackerAPI.Models.TblLoadingTO,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            GJ@20171107 : Get the Last Weighing weight measurement and submit as gross weight
+            </summary>
+            <param name="idLoading"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblLoadingBL.removeIsAllowOneMoreLoading(SalesTrackerAPI.Models.TblLoadingTO,System.Int32)">
+            <summary>
+            GJ@20171107 : Remove Allow one more Loading generation flag if required
+            </summary>
+            <param name="idLoading"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblLoadingQuotaDeclarationBL.SelectAllLoadingQuotaDeclListFromLoadingExt(System.String,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Sanjay [2017-04-05] To Get All Declared Loading Quota List against given Loading Slip Ext Ids
+            These are the Ids of material against a loading slip. Required while confirming the loading slip
+            </summary>
+            <param name="loadingSlipExtId"></param>
+            <param name="conn"></param>
+            <param name="tran"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblLoadingSlipBL.GetVehicalHistoryDataFromIoT(SalesTrackerAPI.Models.TblLoadingTO,SalesTrackerAPI.Models.TblLoadingSlipTO,System.Collections.Generic.List{SalesTrackerAPI.Models.DimStatusTO})">
+            <summary>
+            Kiran [14-12-2018] get vehical status history from IoT
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblLoadingSlipBL.SelectAllNotifiedTblLoadingList(System.DateTime,System.DateTime,System.Int32,System.String)">
+            <summary>
+            Vijaymala [08-05-2018] added to get notified loading list withiin period 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblLoadingSlipDtlBL.SelectAllLoadingSlipDtlListFromBookingId(System.Int32,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Vijaymala added [24-04-2018]:added to get loading slip details from bookingId
+            </summary>
+            <param name="bookingId"></param>
+            <param name="conn"></param>
+            <param name="tran"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblLoadingSlipExtBL.SelectLoadingWiseExtRecordCountDCT">
+            <summary>
+            Sanjay [2017-12-18] It ll return record count against each loading. For the status of Vehicle IN i.e Gate In
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblLocationBL.SelectStkNotTakenCompartmentList(System.DateTime)">
+            <summary>
+            Sanjay [2017-05-03] To Get All the compartment whose stock for the given date is not taken
+            </summary>
+            <param name="stockDate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblMaterialBL.SelectMaterialTypeDropDownList">
+            <summary>
+            Vijaymala[12-09-2017] Added To Get Material Type List
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:SalesTrackerAPI.BL.TblOrganizationBL.SelectDealerListForDropDownForCRM(System.Int32,SalesTrackerAPI.Models.TblUserRoleTO)" -->
+        <member name="M:SalesTrackerAPI.BL.TblOrgStructureBL.SelectDeactivateUserReportingList(SalesTrackerAPI.Models.TblUserReportingDetailsTO)">
+            <summary>
+            17-OCT-2018 Added for Showing Reporting To List Of Employee for Deactivation
+            </summary>
+            <param name="tblUserReportingDetailsTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblOrgStructureBL.SelectDeactivateChildEmployeeList(SalesTrackerAPI.Models.TblUserReportingDetailsTO)">
+            <summary>
+            17-OCT-2018 Added for Attaching Child Position List.
+            </summary>
+            <param name="tblUserReportingDetailsTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblOverdueDtlBL.SelectAllTblOverdueDtlList(System.String)">
+            <summary>
+            [2017-12-01]Vijaymala:Added to get overdue detail List of organization
+            </summary>
+            <param name="dealerIds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblOverdueDtlBL.SelectTblOverdueDtlList(System.Int32)">
+            <summary>
+            [2017-12-01]Vijaymala:Added to get overdue detail List of particular organization
+            </summary>
+            <param name="dealerId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblOverdueDtlBL.SaveOrgOverDueDtl(System.Collections.Generic.List{SalesTrackerAPI.Models.TblOverdueDtlTO},System.Int32)">
+            <summary>
+            [11-12-2017]Vijaymala :Added to save  overDue detail of organization which exports from excel
+            </summary>
+            <param name="tblOverdueDtlTOList"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblOverdueDtlBL.DeleteTblOverdueDtl(System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            [11-12-2017]Vijaymala: Added to delete previous overdue details
+            </summary>
+            <param name="conn"></param>
+            <param name="tran"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblParityDetailsBL.SaveParityDetailsOtherItem(SalesTrackerAPI.Models.TblParitySummaryTO,System.Int32)">
+            <summary>
+            Sudhir[21-MARCH-2018] Added to Save Parity Details List For Other Item . 
+            </summary>
+            <param name="tblParitySummaryTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblParityDetailsBL.DeactivateParityDetails(SalesTrackerAPI.Models.TblParityDetailsTO,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Sudhir[21-March-2018] Added for Deactivate the ParityDetails List Based On ProductItemId And Brand Id
+            </summary>
+            <param name="productItemId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblParityDetailsBL.DeactivateParityDetailsForUpdate(SalesTrackerAPI.Models.TblParityDetailsTO,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Sudhir[21-March-2018] Added for Deactivate the ParityDetails List Based On ProductItemId And Brand Id
+            </summary>
+            <param name="productItemId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblParityDetailsBL.SelectAllParityDetailsToList(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Priyanka [14-09-2018] Added for Get Parity List Based on B
+            </summary>
+            <param name="productItemId"></param>
+            <param name="prodCatId"></param>
+            <param name="stateId"></param>
+            <param name="currencyId"></param>
+            <param name="productSpecInfoListTo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblParityDetailsBL.SelectAllParityDetailsOnProductItemId(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+             Priyanka [14-09-2018] Added for get List of All Parity Details List on ProductItem Id
+            </summary>
+            <param name="productItemId"></param>
+            <param name="prodCatId"></param>
+            <param name="stateId"></param>
+            <param name="currencyId"></param>
+            <param name="productSpecInfoListTo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblParityDetailsBL.SelectParityDetailToListOnBooking(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.DateTime)">
+            <summary>
+            Sudhir[23-MARCH-2018] Added for Get ParityDetail List based on Booking DateTime and Other Combination
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblParityDetailsBL.CreateEmptyParityDetailsTo(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.DateTime)">
+            <summary>
+            Sudhir[23-MARCH-2018] Added for Get ParityDetail List based on Booking DateTime and Other Combination
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblParityDetailsBL.SelectParityDetailToListOnBooking(System.Int32,System.DateTime)">
+            <summary>
+            Vijaymala[19-06-2018] Added for Get ParityDetail List based on Booking DateTime and state id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblParitySummaryBL.SelectActiveTblParitySummaryTO(System.Int32,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Sanjay [2017-04-21] To Get Active Parity Id
+            </summary>
+            <param name="conn"></param>
+            <param name="tran"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblParitySummaryBL.MigrateOldParityWithAllSpecifications">
+            <summary>
+            Sanjay [2017-08-03] This is one time function to execute manually for parity migration
+            Prev In Parity Prod Spec was not there. Included for release 1.2.1 and hence old parity data needs to be
+            set in prod spec format to loading of old bookings having old parity attached to them.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblPersonBL.SelectAllPersonBirthday(System.DateTime,System.Int32,System.Int32)">
+            <summary>
+            Tejaswini [13-11-2018] Added for Getting Birthday or anniversory today
+            </summary>
+            <param name="BirthdayAlertTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblPersonBL.SelectDropDownListOnPersonId(System.Int32)">
+            <summary>
+            Sudhir[21-June-2018]
+            </summary>
+            <param name="idPerson"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblPersonBL.SelectAllPersonListByOrganizationV2(System.Int32,System.Int32)">
+            <summary>
+            Sudhir[20-March-2018] Added for Get Person List On OrganizationId also in tblOrgPersonDtls.
+            </summary>
+            <param name="organizationId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblPersonBL.SelectPersonBasedOnOrgType(System.Int32)">
+            <summary>
+            Sudhir[23-APR-2018] Added for GetPersonList Based on OrgType
+            </summary>
+            <param name="tblPersonTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblPersonBL.SaveNewPersonAgainstOrganization(SalesTrackerAPI.Models.TblPersonTO,System.Int32,System.Int32)">
+            <summary>
+            Sudhir[20-MARCH-2018] Added for Add Person based on OrganizationId and PersonTypeId.
+            </summary>
+            <param name="tblPersonTO"></param>
+            <param name="organizationId"></param>
+            <param name="personTypeId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblProdClassificationBL.InsertProdClassification(SalesTrackerAPI.Models.TblProdClassificationTO)">
+            <summary>
+            Priyanka [23-02-2018] Added for Set the DisplayName of Product Classification.
+            </summary>
+            <param name="tblProdClassificationTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblProdClassificationBL.UpdateDisplayName(System.Collections.Generic.List{SalesTrackerAPI.Models.TblProdClassificationTO},SalesTrackerAPI.Models.TblProdClassificationTO,System.String@,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Priyanka [23-02-2018] Added for Updating DisplayName Recursively.
+            </summary>
+            <param name="allProdClassificationList"></param>
+            <param name="ProdClassificationTO"></param>
+            <param name="conn"></param>
+            <param name="tran"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblProdClassificationBL.UpdateProdClassification(SalesTrackerAPI.Models.TblProdClassificationTO)">
+            <summary>
+            Priyanka [23-02-2018] Added for updating productclassificaiton and its Displayname where its refrences.
+            </summary>
+            <param name="tblProdClassificationTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblProductItemBL.SelectProductItemList(System.Int32)">
+            <summary>
+            Sudhir[15-MAR-2018]
+            Get List of ProductItemTO Based On Category/Subcategory or Specification
+            </summary>
+            <param name="tblProductItemTO"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblProductItemBL.SelectProductItemListStockUpdateRequire(System.Int32)">
+            <summary>
+            Sudhir[04-APR-2017] Added for Get List of Items Based on isStockRequire Flag
+            </summary>
+            <param name="isStockRequire"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblPurchaseCompetitorExtBL.SelectAllTblPurchaseCompetitorExtList(System.Int32)">
+            <summary>
+             Priyanka [16-02-18]: Added to get Purchase Competitor Details
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:SalesTrackerAPI.BL.TblQuotaDeclarationBL.SaveDeclaredRateAndAllocatedQuota(System.Collections.Generic.List{SalesTrackerAPI.Models.TblQuotaDeclarationTO},System.Collections.Generic.List{SalesTrackerAPI.Models.TblQuotaDeclarationTO},SalesTrackerAPI.Models.TblGlobalRateTO)" -->
+        <member name="M:SalesTrackerAPI.BL.TblQuotaDeclarationBL.UpdateBalanceQuotaQty(SalesTrackerAPI.Models.TblQuotaDeclarationTO,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Sanjay [03 aug 2018] While booking it is observed that elapsed quota is get activated if new rate is declared.
+            hence update only pending qty
+            </summary>
+            <param name="tblQuotaDeclarationTO"></param>
+            <param name="conn"></param>
+            <param name="tran"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblRoleBL.SelectTblRoleOnOrgStructureId(System.Int32,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Sudhir[22-AUG-2018] Added Connection ,Transaction
+            </summary>
+            <param name="orgStructutreId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblStatusReasonBL.SelectAllTblStatusReasonList(System.Int32)">
+            <summary>
+            Sanjay [2017-03-06] To Get All the list of reason for given status
+            if statusid=0 then returns all reasons
+            </summary>
+            <param name="statusId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblStockSummaryBL.UpdateDailyStock(SalesTrackerAPI.Models.TblStockSummaryTO)">
+            <summary>
+            Sanjay [2017-03-18] To Update Daily Stock Entries. If it is for the first time for that day
+            then records will be inserted otherwise records will be updated.
+            </summary>
+            <param name="tblStockSummaryTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblStockSummaryBL.ConfirmStockSummary(System.Collections.Generic.List{SalesTrackerAPI.Models.SizeSpecWiseStockTO})">
+            <summary>
+            Sanjay [2017-06-13]
+            </summary>
+            <param name="sizeSpecWiseStockTOList"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblSysElementsBL.SelectSysElementUserEntitlementDCT(System.Int32,System.Int32)">
+            <summary>
+            Sanjay [2017-04-20] Following function will return the dictionary of element with its permissions details
+            for given user and role
+            </summary>
+            <param name="userId"></param>
+            <param name="roleId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TbltaskWithoutSubscBL.SelectTbltaskWithoutSubscList(System.Int32,System.Int32)">
+            <summary>
+            Sudhir[30-AUG-2018]
+            </summary>
+            <param name="moduleId"></param>
+            <param name="entityId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblUnLoadingItemDetBL.SelectAllUnLoadingItemDetailsList(System.Int32)">
+            <summary>
+            Vaibhav [13-Sep-2017] Get all unloading item details 
+            </summary>
+            <param name="unLoadingId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblUnloadingStandDescBL.SelectAllUnloadingStandDescForDropDown">
+            <summary>
+            Vaibhav [13-Sep-2017] Added to select all Unloading Standard Descriptions for drop down
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblUserBL.UpdateTblUser(SalesTrackerAPI.Models.TblUserTO,SalesTrackerAPI.Models.TblUserPwdHistoryTO)">
+            <summary>
+            Saket [2018-03-06] Added to save the history for PWd
+            </summary>
+            <param name="tblUserTO"></param>
+            <param name="tblUserPwdHistoryTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblUserLocationBL.SelectPlanRoute(System.Int32,SalesTrackerAPI.StaticStuff.Constants.RouteTypeE)">
+            <summary>
+            Sudhir[14-AUG-2018] This Method is For Get Result For Actual Route Or Suggested Route.
+            </summary>
+            <param name="tblUserLocationTO"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblUserLocationBL.SelectNearByDealer(System.Int32,System.Int32,SalesTrackerAPI.Models.TblUserRoleTO)">
+            <summary>
+            Sudhir[14-AUG-2018] Added For Showing Distance Wise Dealer.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblUserRoleBL.SelectAllActiveUserRoleList(System.Int32,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Sudhir[22-AUG-2018] Added Connection , Transaction
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblUserRoleBL.SelectUserRoleTOAccToPriority(System.Collections.Generic.List{SalesTrackerAPI.Models.TblUserRoleTO})">
+            <summary>
+            Vijaymala[11-01-2019]added to get user role object acc to priority
+            </summary>
+            <param name="userRoleTOList"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblWeighingBL.DeleteTblWeighingByByMachineIp(System.String)">
+            <summary>
+            GJ@20170830 : Remove the all previous weighing measured records from tables againest IpAddr
+            </summary>
+            <param name="ipAddr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblWeighingMeasuresBL.SelectLoadingWiseExtRecordCountDCT">
+            <summary>
+            Sanjay [2017-12-18] For Listing record count against each loading. Required for Loading % calc
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TblWeighingMeasuresBL.SelectDistinctWeighingMeasuresListByLoadingId(SalesTrackerAPI.Models.TblLoadingTO,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Vijaymala added to get distinct weighing count
+            </summary>
+            <param name="loadingId"></param>
+            <param name="conn"></param>
+            <param name="tran"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.BL.TempInvoiceDocumentDetailsBL.SelectTempInvoiceDocumentDetailsByInvoiceId(System.Int32,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Vijaymala[28-05-2018] :Added To get invoice document list by using invoice id
+            </summary>
+            <param name="invoiceId"></param>
+            <param name="conn"></param>
+            <param name="tran"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.BookingController.GetAllBookingSummaryList(System.Int32,System.Int32,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Priyanka [21-03-2018] : Added to get the view bookings in Booking Summary Report
+            </summary> 
+            <param name="typeId"></param>
+            <param name="masterId"></param>
+            <param name="fromDate"></param>
+            <param name="toDate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.BookingController.GetBookingsListForGraph(System.Int32,System.String,System.Int32)">
+            <summary>
+            Vijaymala[2017-09-11]Added to get booking list to plot graph
+            </summary>
+            <param name="OrganizationId"></param>
+            <param name="userRoleTO"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:SalesTrackerAPI.Controllers.BookingController.PostBookingAcceptance(Newtonsoft.Json.Linq.JObject)" -->
+        <member name="M:SalesTrackerAPI.Controllers.CommercialsController.GetGSTCodeDetails(System.Int32)">
+            <summary>
+            Ramdas.W @14092017: Api This Method is Used to GetTax Rate  
+            </summary>
+            <param name="gstCodeId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.CommercialsController.GetProductAndGSTINCodeLinkage(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            RW@14092017: Api This Method is Used to GSTCode Id 
+            </summary>
+            <param name="prodCatId"></param>
+            <param name="prodSpecId"></param>
+            <param name="materialId"></param>
+            <param name="prodItemId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.CommercialsController.GetAllOtherTaxesList">
+            <summary>
+            GJ@20170919 : Get the Other Tax details list
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.CompetitorController.GetSelectCompetitorListOnBrandId(System.Int32)">
+            <summary>
+            Sudhir[17-APR-2018] Added for Get List Of Competitor On Brand Id .
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.ConfigurationController.GetSystemConfigParamValByName(System.String)">
+            <summary>
+            GJ@20170810 : Get the Configuration value by Name 
+            </summary>
+            <param name="configParamName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.GeoLocationController.myLocationAddress(System.String,System.String)">
+             <summary>
+            Kiran[13-08-2018] Get Location using Lat/Lng.  
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.GeoLocationController.getUserLastLocationListOnUserId(System.String)">
+            <summary>
+            //Kiran[13-08-2018] Get Last Location 
+            </summary>
+            <param name="userIds"></param>
+            <returns>TblUserLocationTO</returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.GeoLocationController.GetPlanRoutes(System.Int32,SalesTrackerAPI.StaticStuff.Constants.RouteTypeE)">
+            <summary>
+            Sudhir[14-AUG-2018] Added For GetPlanRoutes 
+            </summary>
+            <param name="userId"></param>
+            <param name="routeTypeE"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.GeoLocationController.getNearBycustomer(System.Int32,System.Int32,System.String,System.String)">
+            <summary>
+            //Kiran[13-08-2018] Get Last Near By customer 
+            </summary>
+            <param name="distance"></param>
+            <param name="siteType"></param>
+            <returns>TblUserLocationTO</returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.InvoiceController.GetInvoiceList(System.String,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String)">
+            <summary>
+            Ramdas.w @24102017 this method is  Get Generated Invoice List
+            </summary>
+            <param name="fromDate"></param>
+            <param name="toDate"></param>
+            <param name="isConfirm"></param>
+            <param name="cnfId"></param>
+            <param name="dealerID"></param>
+            <param name="userRoleTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.InvoiceController.GetInvoiceListByStatus(System.Int32,System.Int32)">
+            <summary>
+            Ramdas.W:@22092017:API This method is used to Get List of Invoice By Status
+            </summary>
+            <param name="StatusId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.InvoiceController.GetRptInvoiceList(System.String,System.String,System.Int32,System.String)">
+            <summary>
+            Vijaymala[15-09-2017] Added To Get Invoice List To Generate Report
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.InvoiceController.GetInvoiceExportList(System.String,System.String,System.Int32,System.String)">
+            <summary>
+            Vijaymala[06-10-2017] Added To Get Invoice List To Generate Invoice Excel
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.InvoiceController.GetHsnExportList(System.String,System.String,System.Int32,System.String)">
+            <summary>
+            Vijaymala[07-10-2017] Added To Get Invoice List To Generate HSN Excel
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.InvoiceController.GetSalesInvoiceListForReport(System.String,System.String,System.Int32,System.String,System.Int32)">
+            <summary>
+            Vijaymala[11-01-2018] Added To Get Sales Invoice List To Generate Report
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.InvoiceController.GetOtherItemListForReport(System.String,System.String,System.Int32,System.Int32,System.String)">
+            <summary>
+            Priyanka [26-03-2018] : Added to get the other item list of Invoice Report.
+            </summary>
+            <param name="fromDate"></param>
+            <param name="toDate"></param>
+            <param name="isConfirm"></param>
+            <param name="otherTaxId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.InvoiceController.GetInvoiceDetailsByLoadingSlipId(System.Int32)">
+            <summary>
+            Sudhir Added For get InvoiceTO based on loadingSlipId
+            </summary>
+            <param name="loadingSlipId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.InvoiceController.GetAllTNotifiedblInvoiceList(System.String,System.String,System.Int32,System.String)">
+            <summary>
+            Vijaymala added[09-05-2018] :To get notified invoice list
+            </summary>
+            <param name="fromDate"></param>
+            <param name="toDate"></param>
+            <param name="isConfirm"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.InvoiceController.GetInvoiceDocumentDetails(System.Int32)">
+            <summary>
+            Vijaymala added[23-05-2018] :To get  invoice document list
+            </summary>
+            <param name="fromDate"></param>
+            <param name="toDate"></param>
+            <param name="isConfirm"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.InvoiceController.PostInvoice(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Ramdas.W:14092017:API This method is used to Added new Invoice 
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.InvoiceController.PostUpdateInvoiceConfirmNonConfirmDetails(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            GJ@20171001 : Post Edit ConfirmNonConfirm status with calculation
+            </summary>
+            <returns></returns>
+            
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.InvoiceController.PostInvoiceDocumentDetails(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Vijaymala[22-05-2018] : Added To save invoice document details.
+            </summary>
+            <returns></returns>
+            
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.InvoiceController.PostDeactivateInvoiceDocumentDetails(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Vijaymala[22-05-2018] : Added To deacivate invoice document details.
+            </summary>
+            <returns></returns>
+            
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.InvoiceController.PostExtractEnquiryData">
+            <summary>
+            Vaibhav [29-Nov-2017] Added to separate transactional data 
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.InvoiceController.GenerateEInvoice(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Dhananjay[18-11-2020] : Added To Generate eInvvoice.
+            </summary>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.InvoiceController.CancelEInvoice(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Dhananjay[19-11-2020] : Added To Cancel eInvvoice.
+            </summary>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.InvoiceController.GetAndUpdateEInvoice(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Dhananjay[01-03-2021] : Added To Get And Update eInvvoice.
+            </summary>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.InvoiceController.GenerateEWayBill(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Dhananjay[18-11-2020] : Added To Generate EWayBill.
+            </summary>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.InvoiceController.CancelEWayBill(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Dhananjay[19-11-2020] : Added To Cancel EWayBill.
+            </summary>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.GetLoadingTODetailsByLoadingSlipId(System.Int32)">
+            <summary>
+            GJ@20171012 : Get the LoadingTo details by LoadingSlipId
+            </summary>
+            <param name="loadingId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.GetAllInLoadingListByVehicleNo(System.String,System.Int32)">
+            <summary>
+            GJ@20170829 : Get the Loading slip list those are in but not completed losding slip
+            </summary>
+            <param name="prodCatId"></param>
+            <param name="prodSpecId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.GetLoadingMaterialDetails(System.Int32)">
+            <summary>
+            Sanjay [2017-05-25] It will return material details alongwith its layer details
+            Can be used to show popup for showing why Loading Approval is needed based on quotaafterloading property
+            </summary>
+            <param name="loadingId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.GetAllAddressesDetailsList(System.Int32)">
+            <summary>
+             YogeshAchrya@26052020 : get All address details list againts organisation with dealer name
+            </summary>
+            <param name="OrganisationId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.GetVehicleNumberListByStauts(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            GJ@20170810 : get All vehicle number List , those are in 'In' premises
+            </summary>
+            <param name="statusId"></param>
+            <param name="status"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.GetAllUnLoadingDetails(System.DateTime,System.DateTime)">
+            <summary>
+            Vaibhav [14-Sep-2017] Added to select all unloading slip details
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.GetUnLoadingDetails(System.Int32)">
+            <summary>
+            Vaibhav [14-Sep-2017] Added to select particular unloading slip details 
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.GetUnloadingStandDescList">
+            <summary>
+            Vaibhav [20-Sep-2017] Added to get unloading standard desc list
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.IsInvoiceGeneratedByLoadingSlipId(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.GetLoadingSlipDetailsByLoadingSlipId(System.Int32)">
+            <summary>
+            GJ@20171012 : get the Loading Slip details By LoadingSlipId
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.GetAllLoadingCycleListByDate(System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            [27-02-2018] Sudhir : Added To Get Loading Cycle List By Date. 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.GetLoadingTODetailsByBookingId(System.Int32)">
+            <summary>
+            Vijaymala[24-04-2018] added : to get loading details by using booking id
+            </summary>
+            <param name="bookingId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.GetAllNotifiedLoadingList(System.String,System.String,System.Int32,System.String)">
+            <summary>
+            Vijaymala [08-05-2018] added to get notified loading list withiin period 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.GetLoadingStatusInfo(System.String,System.Int32,System.DateTime,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Sudhir[18-APR-2018] Added for Showig Graphical Data of Loading Status CNF Wise.
+            </summary>
+            <param name="roleId"></param>
+            <param name="orgId"></param>
+            <param name="sysDate"></param>
+            <param name="loadingType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.GetConsolidatedUnloadingView(System.String,System.String)">
+            <summary>
+            Sanjay [2018-07-30] To Generate consolidated report for unloading with all data
+            </summary>
+            <param name="fromDate"></param>
+            <param name="toDate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.PostDeliverySlipListConfirmations(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            GJ@20170829 : Delivery slip Loading completion confirmation for multiple Loading Slip
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.PostDeliverySlipConfirmationsCycleAuto(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            GJ@20170824 : API to populate the Loading Slip status changes cycle automatically
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.PostNewUnLoadingSlip(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+             Vaibhav [13-Sep-2017] API to insert Unloading Slip Details
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.PostUpdateUnloadingById(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            GJ@20170917 : API to Update the UnLoading Slip Confirmations
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.PostNewUnloadingDescription(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Vaibhav [20-Sep-2017] Added to get unloading standard desc list
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.PostUpdateUnloadingDescription(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Vaibhav [20-Sep-2017] Added to Update unloading standard desc
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.PostDeactivateUnloadingDescription(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Vaibhav [20-Sep-2017] Deactivate Unloading Description
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.PostDeactivateUnLoadingSlip(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Vaibhav [12-Oct-2017] added to deactivate unloading slip
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.PostRemoveIsAllowOneMoreLoading(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            GJ@20171107 : Remove the IsAllow condition on Weighment screen
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+            
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.LoadSlipController.PutUnLoadingSlip(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Vaibhav [14-Sep-2017] API to update unloading details
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MarketingVisitController.GetVisitPurposeListForDropDownList(System.Int32)">
+            <summary>
+            Vaibhav [3-Oct-2017] added to get all visit purpose
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MarketingVisitController.GetVisitPersonList(System.Int32)">
+            <summary>
+            Vaibhav [3-Oct-2017] added to get all visit related person list
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MarketingVisitController.GetSiteStatusListForDropDown">
+            <summary>
+            Vaibhav [3-Oct-2017] added to get all site status
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MarketingVisitController.GetPaymentTermListForDropDown">
+            <summary>
+            Vaibhav [3_oct-2017] added to get all payment terms
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MarketingVisitController.GetAllSiteTypeList">
+            <summary>
+            Vaibhav [5-oct-2017] added to get all site type list
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MarketingVisitController.GetAllVisitFollowUpRoleList">
+            <summary>
+            Vaibhav [9-Oct-2017] added to get visit follow up list
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MarketingVisitController.GetVisitIssueReasonListForDropDown">
+            <summary>
+            Vaibhav [9-Oct-2017] added to get visit issue reason list
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MarketingVisitController.GetVisitProjectDetailsList">
+            <summary>
+            Vaibhav [24-Oct-2017] added to get influencer visit project details 
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MarketingVisitController.GetFollowUpUserRoleListForDropDown">
+            <summary>
+            Vaibhav [27-Oct-2017] added to get all user follow up role list
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MarketingVisitController.GetFollowUpRoleListForDropDown">
+            <summary>
+            Vaibhav [27-Oct-2017] added to get non user follow up roles
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MarketingVisitController.GetAllVisitDetailsList">
+            <summary>
+            Vaibhav [28-Oct-2017] added to get all visit details
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MarketingVisitController.GetVisitDetailsList(System.Int32)">
+            <summary>
+            Vaibhav [31-Oct-2017] added to get visit details
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MarketingVisitController.GetVisitRoleForDropDown">
+            <summary>
+            Vaibhav [08-Nov-2017] added to get visit roles 
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MarketingVisitController.GetVisitPersonRoleListForDropDown">
+            <summary>
+            Vaibhav [19-Nov-2017] added to get visit person roles
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MarketingVisitController.GetVisitPersonTypeDropDownList">
+            <summary>
+            Sudhir - Added for Get All Visit Person TypeList.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MarketingVisitController.GetVisitPersonDropDownListOnPersonType(System.Int32)">
+            <summary>
+            Sudhir - Added for Get Visit Persons Based on Person Type.
+            </summary>
+            <param name="personType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MarketingVisitController.GetVisitPersonDropDownListOnPersonType(System.Int32,System.Nullable{System.Int32})">
+            <summary>
+            Sudhir - Added for Get Visit Persons Based on Person Type.
+            </summary>
+            <param name="personType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MarketingVisitController.GetPersonAddressDetails(System.Int32,SalesTrackerAPI.StaticStuff.Constants.AddressTypeE)">
+            <summary>
+            Sudhir[13-March-2018] - Added for Get Address on PersonId And AddressTypeId.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MarketingVisitController.PostMarketingDetails(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Vaibhav [30-Oct-2017] added to Insert Marketing details 
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MarketingVisitController.PostUpdateMarketingDetails(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Vaibhav [02-Nov-2017] Added to update marketing details
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MarketingVisitController.PostSaveNewPerson(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            This Method is For Add New Person.
+            </summary>
+            <remarks>
+            Sample Data {'personTO':{'SalutationId':1, 'MobileNo':"123456789", 'AlternateMobNo':"", 'PhoneNo':"", 'CreatedBy':1, 'FirstName':"xyz", 'MidName':"", 'LastName':"xyz", 'PrimaryEmail':"", 'AlternateEmail':"", 'Comments':"" }, 'loginUserId':1 }
+            </remarks>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MarketingVisitController.PostNewPersonWithAddress(SalesTrackerAPI.Models.TblPersonTO,SalesTrackerAPI.Models.TblAddressTO)">
+            <summary>
+            This Method is For Adding New Person , Address and its Mapping.
+            </summary>
+            <param name="tblPerson"></param>
+            <param name="tblAddress"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetUnitMeasuresForDropDown(System.Int32)">
+            <summary>
+            Vaibhav [13-Sep-2017] added to fill UnitMeasures Drop Down
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetUnloadingStandDescForDropDown">
+            <summary>
+            Vaibhav [13-Sep-2017] added to fill UnloadingStandDesc Drop Down
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetAllDepartmentList">
+            <summary>
+            Vaibhav [15-Sep-2017] Get all department
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetUserListDepartmentWise(System.String)">
+            <summary>
+            Deepali [19-Oct-2018] Get all department
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.getProdSpecDescList">
+            <summary>
+            vinod on Date:12/12/2017
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetDivisionDropDownList(System.Int32)">
+            <summary>
+            Vaibhav [15-Sep-2017] added to fill division drop down.
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetDepartmentDropDownListByDivision(System.Int32)">
+            <summary>
+            Vaibhav [18-Sep-2017] added to fill department drop down by specific division 
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetBOMDepartmentTO">
+            <summary>
+            Vaibhav [19-Sep-2017] Added to select BOM department
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetUnloadingStandDescList">
+            <summary>
+            Vaibhav [13-Sep-2017] Get all UnloadingStandDesc List
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetSubDepartmentDropDownListByDepartment(System.Int32)">
+            <summary>
+            Vaibhav [25-Sep-2017] get all sub departments for drop down by department
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetAllDesignationForDropDown">
+            <summary>
+            Vaibhav [25-Sep-2017] get all designation for drop down
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetReportingTypeList">
+            <summary>
+            Vaibhav [27-Sep-2017] added to select all designation list
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetVisitIssueReasonsList">
+            <summary>
+            Vaibhav [3-Oct-2017] added to select visit issue reason list
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetAllStatesList">
+             <summary>
+            Sudhir[09-12-2017] Added For GetAllStatesList 
+             </summary>
+             <param name="data"></param>
+             <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetAllFirmTypesForDropDown">
+            <summary>
+            Sudhir[08-MARCH-2018]-This Methods Shows AllFirmTypes
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetAllInfluencerTypesForDropDown">
+            <summary>
+            Sudhir[08-MARCH-2018]-This Methods Shows AllInfluencerType
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetAllItemBroadCategories">
+            <summary>
+            Sudhir[23-APR-2018] Added for Select All Products .
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetAllOtherDesignations">
+            <summary>
+            Sudhir[23-APR-2018] Added for Select All OtherDesignations .
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetAllOrganizationTypes">
+            <summary>
+            Sudhir[24-APR-2018] Added for Get All Master Org Types.
+            </summary>
+            <param name=""></param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetAllUnitMeasurement">
+            <summary>
+            Sudhir[22-MAY-2018] Get All UnitMeasurement Types
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetSAPMasterDropDown(System.Int32)">
+            <summary>
+            Priyanka [23-04-2019] : Added to get the SAP Master Value according to their type.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.SelectAllUnitMeasuresForDropDownByCatId(System.Int32)">
+            <summary>
+            Kiran [08-Sep-2018] added to fill UnitMeasures Drop Down Using Cat Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetDropDownListOnPersonId(System.Int32)">
+            <summary>
+            Sudhir[21-JUNE-2018]
+            </summary>
+            <param name="personId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetModuleCommunicationDetailsById(System.Int32,System.Int32)">
+            <summary>
+            Kiran[16-08-2018] To get module Communication List using moduleId and entityId
+            </summary>
+            <param name="srcModuleId"></param>
+            <param name="srcTxnId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetRoleOrgListForDropDown(System.Int32,System.Int32)">
+            <summary>
+            Dipali[26-7-2018] Added for get List of role and organization type Configuration based on VisitTypeId and personTypeId.
+            </summary>
+            <param name="visitTypeId"></param>
+            <param name="personTypeId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetTasksWithousSubscList(System.Int32,System.Int32)">
+            <summary>
+            Sudhir[30-08-2018] To get module Communication List using moduleId and entityId
+            </summary>
+            <param name="srcModuleId"></param>
+            <param name="srcTxnId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetFixedDropDownValues">
+            <summary>
+            Sudhir[06-09-2018] To get Fixed DropDown List 
+            </summary>
+            <param name="srcModuleId"></param>
+            <param name="srcTxnId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.GetMasterSiteTypes(System.Int32)">
+            <summary>
+            Sudhir[06-09-2018] To get Fixed DropDown List 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.PostNewDepartmentMaster(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Vaibhav [16-Sep-2017] Added to insert new department. 
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.PostUpdateDepartmentMaster(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Vaibhav [16-Sep-2017] Added to update department master
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.PostNewStatetMaster(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Sudhir[09-12-2017]Added for Adding New State.
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.PostUpdateState(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Sudhir[09-12-2017]Added for Updating State.
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.UploadDocument(System.Collections.Generic.List{SalesTrackerAPI.Models.TblDocumentDetailsTO})">
+             <summary>
+            Sudhir[24-APR-2018] Added for Uploading Image  
+             </summary>
+             <param name="tblDocumentDetailsTOTblDocumentDetailsTO"></param>
+             <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.UploadDocumentset(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            @Kiran 15-01-2019 to change old method and add FromBody  
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.PostEmailConfigurationDetails(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            [07-05-2018] Sudhir:Added to save email configration
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+            
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.PostUpdateEmailConfigurationDetails(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Sudhir [07-05-2018] Added to update email configration
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.SendShareDocumentToMail(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Sudhir [07-05-2018] Added to update email configration
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.SaveTaskModuleDetails(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Sudhir [07-05-2018] Added to Save TaskModule Details
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.SaveModuleCommunicationDetails(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Kiran [16-08-2018] Added to Save Module Communication Details
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.SaveTasksWithoutSubscription(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Sudhir [30-08-2018] Added to Save Tasks Without Subscription.
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MastersController.getDepartmentIdFromUserId(System.Int32)">
+            <summary>
+            Yogesh [24-10-2018] Added to get Department id From UserId Id
+            </summary>
+            <param name="id"></param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:SalesTrackerAPI.Controllers.MaterialController.GetParityDetails(System.Int32,System.Int32)" -->
+        <member name="M:SalesTrackerAPI.Controllers.MaterialController.GetProductSpecificationListByLoadingSlipExtIds(System.String)">
+            <summary>
+            GJ@20170818 : Get the Prouct Master Info List by LoadingSlipExt Ids for Bundles calculation
+            </summary>
+            <param name="strLoadingSlipExtIds"></param>
+            <param name="strLoadingSlipExtIds">Added to know the Loading Slip Ext Ids</param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MaterialController.GetMaterialTypeDropDownList">
+            <summary>
+            Vijaymala[12-09-2017] Added To Get Material Type List
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MaterialController.GetProductItemByProdClass(System.Int32)">
+             <summary>
+            Sudhir[15-Mar-2018] Added for Get ProductItem List Based Product Classification Id.  
+             </summary>
+             <param name="idProdClass"></param>
+             <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MaterialController.GetItemProductCategoryList">
+            <summary>
+            Sanjay [2018-02-19] To Show all Item Prod Catg List
+            </summary>
+            <returns></returns>
+            <remarks>Retrives All Item Product Categories for e.g. FG,Scrap,Service Items etc</remarks>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MaterialController.GetProductClassListByItemCatg(SalesTrackerAPI.StaticStuff.Constants.ItemProdCategoryE)">
+            <summary>
+            Sanjay [2018-02-19] To Retrive All the Product Classfication List By Item Product Category Enum
+            </summary>
+            <param name="itemProdCategoryE"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MaterialController.PostDeactivateCategory(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+             Priyanka [23-02-2018] : Added to Deactivate the Category from product classification list
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MaterialController.PostDeactivateItemOrProduct(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+             Priyanka [23-02-2018] : Added to Deactivate Item/Product in Product Classification.
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MaterialController.GetParityDetailsList(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+             <summary>
+            Priyanka [14-09-2018] Added for Get ParityDetails List
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MaterialController.PostParityDetails(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Sanjay [2017-04-21] To Save Material Sizewise Parity Details
+            Will Deactivate all Prev Parity Details and Inserts New Parity Details
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MaterialController.PostNewMaterial(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Vijaymala[12-09-2017] Added To save Material Size
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MaterialController.PostUpdateMaterial(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Vijaymala[12-09-2017] Added To Update Material Size
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MaterialController.PostDeactivateMaterial(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Vijaymala[12-09-2017] Added To Update Material Size
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.MaterialController.SaveParityDetailsOtherItem(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Sudhir[21-MARCH-2018] Added  for Insert Parity Details New Req. Data insert only in tblParityDetails.
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.NotifyController.GetAlertDefinationList(System.Int32,System.String)">
+            <summary>
+            Kiran Mehetre [24-10-2018] : Send Notification Perticular UserId
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.NotifyController.GetAlertDefinationList">
+            <summary>
+            Priyanka [27-09-2018] : Added to get the alert defination list
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.NotifyController.GetAlertSubscribersList(System.Int32)">
+            <summary>
+            Priyanka [27-09-2018] : Added to get the alert Subscribers list
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.NotifyController.PostAlertSubcriptionSettings(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Priyanka [27-09-2018] : Added to post the new alert Subscription setting
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.NotifyController.PostNewRoleOrUserForSubscribers(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Priyanka [27-09-2018] : Added to post new role or user in subscibers list.
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.NotifyController.PostUpdateAlertSubcribers(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Priyanka [27-09-2018] : Added to update the alert subscribers.
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.NotifyController.PostNewAlert(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Sudhir --Added for Save New Alert.
+            </summary>
+            <param name="tblAlertInstanceTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.NotifyController.PostResetOldAlerts(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Deepali --Added for Reset Old Alerts.
+            </summary>
+            <param name="tblAlertInstanceTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationController.GetOrganizationList(System.Int32)">
+            <summary>
+            Sanjay [2017-02-03]
+            </summary>
+            <remarks>This API will Retrive All Organization List based on given Type Id.</remarks>
+            <param name="orgTypeId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationController.GetDealersOverdueDetailsInfo(System.Int32)">
+            <summary>
+             Priyanka [08-04-2019] : Added to get the overdue details of dealer.
+            </summary>
+            <param name="dealerId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationController.GetPurchaseCompetitorMaterialList(System.Int32)">
+            <summary>
+            Priyanka [16-02-18] : Added to get Purchase Competitor Material and Grade Details
+            </summary>
+            <param name="organizationId"></param>
+            <returns>List of Material and Grade for given Purchase Competitor</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:SalesTrackerAPI.Controllers.OrganizationController.GetDealerDropDownListForCRM(System.Int32,System.String)" -->
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationController.GetInvoiceOtherDetails(System.Int32)">
+            <summary>
+            Vijaymala[31-10-2017] Added to get invoice other details like desription wich display
+            on footer to display terms an dconditions
+            </summary>
+            <param name="organizationId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationController.GetOrganizationPersonList(System.Int32,System.Int32)">
+            <summary>
+            Sudhir[20-March-2018] Added for Get Person List On OrganizationId also in tblOrgPersonDtls.
+            </summary>
+            <param name="organizationId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationController.CheckOrgNameOrPhoneNoAlready(System.String,System.String,System.Int32)">
+            <summary>
+            Sudhir[23-APR-2018] Added for Checking Organization Name OR Phone No. is Already Present Or Not.
+            </summary>
+            <param name="organizationId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationController.GetPersonsOnOrgType(System.Int32)">
+            <summary>
+            Sudhir[23-APR-2018] Added for Select All OtherDesignations .
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationController.PostOrganizationOverDueDtl(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Priyanka [14-02-2019] :Added to add enquiry detail of organization
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationController.PostOrganizationEnquiryDtl(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Priyanka [14-02-2019] : Added to save enquiry detail of organization
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationController.PostOrganizationRefIds(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Priyanka A. [16-04-2019] Added to save the organizations overdue ref Ids and enquiry ref Ids.
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationController.PostSaveNewPersonForOrganization(SalesTrackerAPI.Models.TblPersonTO,System.Int32,System.Int32)">
+            <summary>
+            This Method is For Add New Person Along with Organization.
+            </summary>
+            <remarks>
+            Sample Data {'personTO':{'SalutationId':1, 'MobileNo':"123456789", 'AlternateMobNo':"", 'PhoneNo':"", 'CreatedBy':1, 'FirstName':"xyz", 'MidName':"", 'LastName':"xyz", 'PrimaryEmail':"", 'AlternateEmail':"", 'Comments':"" }, 'loginUserId':1 }
+            </remarks>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.GetAllOrgStructureList">
+            <summary>
+            Vaibhav [25-Sep-2017] Get All organization structure hierarchy
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.GetOrgStructureUserDetails(System.Int16)">
+            <summary>
+            Vaibhav [28-Sep-2017] added to get all specific organization structure users.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.GetUserReportingToList(System.Int32,System.Int32)">
+            <summary>
+            Hrushikesh added to get all reporting to employee list on Type
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.GetOrgStuctureListForHierarchy(System.Int32)">
+            <summary>
+            Vaibhav [11-Oct-2017] New get organization structure list
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.GetOrgStructureListForDisplay(System.Int32)">
+            <summary>
+            Sudhir[01JAN2018] Get list of OrgnizationStructure for Tree Table Structure.
+            </summary>
+            <param name="reportingTypeId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.GetOrgStructureListForDisplayTree">
+            <summary>
+            Sudhir[01JAN2018] Get list of OrgnizationStructure for Heirarchy Structure.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.GetAllLevelList">
+            <summary>
+            Get All Level List.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.GetAllchildPositionList(System.Int32,System.Int32)">
+            <summary>
+            Get All ChildPosition List Based on orgStructure Id and Reporting Type.
+            </summary>
+            <param name="idOrgStructure"></param>
+            <param name="reportingTypeId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.GetNotLinkedPositionsList">
+            <summary>
+            Get OrgStructureList Whose Position Not Linked OR (Not Attached).
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.GetAllOrganizationHierarchyList">
+            <summary>
+            Get All Organization Hierarchy List
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.GetChildUserListOnUserId(System.Int32,System.Nullable{System.Int32},System.Int32)">
+            <summary>
+            //Sudhir[08-MAR-2018] Added for Get Users for Organizations Structre Based on User ID's
+            </summary>
+            <param name="userId"></param>
+            <returns>DropDownTO</returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.GetPositionLinkDetails(System.Int32)">
+            <summary>
+            //Sudhir[04-July-2018] Added for Get Users for Organizations Structre Based on User ID's
+            </summary>
+            <param name="idOrgStructure"></param>
+            <returns>DropDownTO</returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.GetParentUserOnUserId(System.Int32,System.Int32)">
+            <summary>
+            //Sudhir[22-AUG-2018] Added for Parent User On UserId
+            </summary>
+            <param name="idOrgStructure"></param>
+            <returns>DropDownTO</returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.GetDeactivationReportingToList(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            //Sudhir[17-OCT-2018] Get UpperLevel List from UserReportingDetails
+            </summary>
+            <param name="idOrgStructure"></param>
+            <returns>DropDownTO</returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.GetDeactivationEmployeeList(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            //Sudhir[17-OCT-2018] Get UpperLevel List from UserReportingDetails
+            </summary>
+            <param name="idOrgStructure"></param>
+            <returns>DropDownTO</returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.GetChildPositions(System.Int32)">
+            <summary>
+            Sudhir[22-OCT-2018] Added for Get Child Positon List Based On OrgStructure Id.
+            </summary>
+            <param name="idOrgStructure"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.postDelinkPosition(System.Int32,System.Int32)">
+            <summary>
+            Sudhir[22-OCT-2018] Added for Update Organization Structure Hierarchy
+            </summary>
+            <param name="selfOrgStructureId"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.PostOrgStructure(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Vaibhav [26-Sep-2017] Added to save organization hierarchy structure
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.PostUpdateOrgStructure(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Vaibhav [27-Sep-2017] added to update organization structure
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.PostDeactivateOrgStructure(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Vaibhav [27-Sep-2017] added to deactivate specific organization structure hierarchy
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.PostDeactivateUserForOrgStructure(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Vaibhav [29-Sep-2017] added to update user reporting details
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.PostAttachNewUserToOrgStructure(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Vaibhav [26-Sep-2017] aded to attach employee for specifc organization hierachy
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.PostDeactivateUserReporting(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            This Method Deactivate USer Reporting.
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.PostChildPositionOrgStructure(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            This Method is for Linking Organization Structure.
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.PostChangeReportingToDetails(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            This Method is for Linking Change Child User Reporting Details.
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.GetOrgStructureUserDetailsBom(System.Int16)">
+            <summary>
+            Hrushikesh added to get all specific organization structure users for BOM.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.OrganizationStructureController.PostChangeReportingToDetailsBOM(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            This Method is for Linking Change Child User Reporting Details.
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.QuotaAndRateController.GetQuotaDeclarationInfo(System.Int32)">
+            <summary>
+            Sanjay [2017-02-10] To Get Information About Specific Quota
+            </summary>
+            <param name="cnfId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.QuotaAndRateController.CheckForValidityAndReset(System.Int32)">
+            <summary>
+            Sanjay [2017-05-08] To Get Information About Specific Quota
+            </summary>
+            <param name="cnfId"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:SalesTrackerAPI.Controllers.QuotaAndRateController.GetLatestQuotaAndRateInfo(System.Int32,System.DateTime)" -->
+        <member name="M:SalesTrackerAPI.Controllers.ReportController.GetReportObject(System.Int32)">
+            <summary>
+            Sudhir[04-SEPT-2018] Added for Selection Of Report.
+            </summary>
+            <param name="reportId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.ReportController.GetAllReportObject(System.Int32)">
+            <summary>
+            Sudhir[10-SEPT-2018] Added for Selection Of All Report.
+            </summary>
+            <param name="reportId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.StockController.GetStockNotTakenCompartmentList(System.DateTime)">
+            <summary>
+            Sanjay [2017-05-03] To Get All the compartment whose stock for the given date is not taken
+            </summary>
+            <param name="stockDate"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SalesTrackerAPI.Controllers.SubscriptionController">
+            <summary>
+            Sanjay [25-Feb-User Subscription Policy Management]
+            </summary>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.SubscriptionController.GetAllApplicationsList">
+            <summary>
+            Sanjay [25-Feb-2019] It will retrive all active modules/applications of suite. 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.SubscriptionController.getAllUsersWithModulePermission(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Sanjay [25-Feb-2019] It will retrive all active modules/applications of suite. 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.SupportController.PostUpdateInvoiceForSupport(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            This method is for Update Invoice Mode.
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.SupportController.PostDeleteWeighingMeasureForSupport(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            This Method is For Deleting WeighingMeasures 
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.SupportController.PostTblWeighingTO(System.String)">
+            <summary>
+            For posting weight using api call
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.UserController.GetPersonOnPersonId(System.Int32)">
+            <summary>
+            Saket [2018-10-30] Added as these call was in STAPI code.
+            </summary>
+            <param name="personId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.UserController.GetTodaysBirthdays(System.String,System.Int32,System.Int32)">
+            Get birthday or anniversary notifications - Tejaswini
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.UserController.GetAllDimRoleTypeList">
+            <summary>
+            Vijaymala [04-12-2018] added to select all role type list
+            </summary>
+            <param ></param>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.UserController.UploadUserProfilePicture(Newtonsoft.Json.Linq.JObject)">
+             <summary>
+            Sudhir[24-APR-2018] Added for Uploading Image  
+             </summary>
+             <param name="tblDocumentDetailsTOTblDocumentDetailsTO"></param>
+             <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.Controllers.UserController.UploadUserProfilePictureAsync(Newtonsoft.Json.Linq.JObject)">
+             <summary>
+            Sudhir[24-APR-2018] Added for Uploading Image  
+             </summary>
+             <param name="tblDocumentDetailsTOTblDocumentDetailsTO"></param>
+             <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:SalesTrackerAPI.DAL.DimensionDAO.GetUserListDepartmentWise(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:SalesTrackerAPI.DAL.DimensionDAO.GetUserListDepartmentWise(System.Int32)" -->
+        <member name="M:SalesTrackerAPI.DAL.DimensionDAO.GetItemProductCategoryListForDropDown">
+            <summary>
+            Sanjay[2018-02-19] To Get dropdown list of Item Product Categories in the system
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.DimProdSpecDescDAO.ExecuteSelectCommand(System.Data.SqlClient.SqlCommand)">
+            <summary>
+            Added by vinod for the selection of the max records on Dated :12/12/2017
+            </summary>
+            <param name="cmdInsert"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:SalesTrackerAPI.DAL.DimUnitMeasuresDAO.SelectAllUnitMeasuresForDropDown(System.Int32)" -->
+        <member name="M:SalesTrackerAPI.DAL.TblAlertSubscriptSettingsDAO.SelectAllTblAlertSubscriptSettings(System.Int32)">
+            <summary>
+            Priyanka [27-09-2018] : Added to get the alert subscription setting list
+            </summary>
+            <param name="subscriptionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblAlertSubscriptSettingsDAO.SelectAllTblAlertSubscriptSettingsByAlertDefId(System.Int32)">
+            <summary>
+            Priyanka [27-09-2018] : Added to get the alert subscription setting list from alert defination Id.
+            </summary>
+            <param name="alertDefId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblAlertSubscriptSettingsDAO.SelectTblAlertSubscriptSettingsFromNotifyId(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Priyanka [27-09-2018]
+            </summary>
+            <param name="NotificationTypeId"></param>
+            <param name="SubscriptionId"></param>
+            <param name="AlertDefId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblBookingDelAddrDAO.SelectTblBookingsByDealerOrgId(System.Int32,System.String,System.Int32)">
+            <summary>
+            Aditee [04-02-2020]: Select the address for booking from existing bookings of dealer.
+            </summary>
+            <param name="dealerOrgId"></param>
+            <param name="txnAddrTypeId"></param>
+            <param name="cnt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblBookingScheduleDAO.UpdateTblBookingSchedulePendingQty(SalesTrackerAPI.Models.TblBookingScheduleTO,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            AmolG[2020-Feb-25] This will update the qty
+            </summary>
+            <param name="tblBookingScheduleTO"></param>
+            <param name="conn"></param>
+            <param name="tran"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblBookingsDAO.SelectBookingSummaryList(System.Int32,System.Int32,System.DateTime,System.DateTime,SalesTrackerAPI.Models.TblUserRoleTO,System.Int32)">
+            <summary>
+            Priyanka [14-03-2018] : Added for booking summary report.
+            </summary>
+            <param name="fromDate"></param>
+            <param name="toDate"></param>
+            <param name="typeId"></param>
+            <param name="masterId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblBookingsDAO.ConvertDTToListForBookingSummaryRpt(System.Data.SqlClient.SqlDataReader)">
+            <summary>
+            Priyanka [21-03-2018]: Added ConvertDTTOList For Booking Summary Report
+            </summary>
+            <param name="tblBookingsSummaryTODT"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblBookingsDAO.SelectBookingListForGraph(System.Int32,SalesTrackerAPI.Models.TblUserRoleTO,System.Int32)">
+            <summary>
+            Vijaymala [2017-09-11] added to get booking list to generate booking graph
+            </summary>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblBookingsDAO.ConvertDTToListForGraph(System.Data.SqlClient.SqlDataReader)">
+            <summary>
+            Vijaymala [2017-09-11] added to convert dt to list to generate booking graph
+            </summary>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblCompetitorExtDAO.SelectCompetitorListOnBrandId(System.Int32)">
+            <summary>
+            Sudhir[17-APR-2018] Added for CompetitorList Based On BrandId.
+            </summary>
+            <param name="brandId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblEnquiryDtlDAO.SelectOrganizationEnquiryDtl(System.String)">
+            <summary>
+            [04-12-2017] Vijaymala :To get previous enquiry details of organization using enquiry reference Id
+            </summary>
+            <param name="tblEnquiryDtlTO"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblEnquiryDtlDAO.DeactivateOrgEnqDeatls(System.Int32,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            [04-12-2017]Vijaymala :Added to deactivate previous enquiry detail of organization
+            </summary>
+            <param name="tblEnquiryDtlTO"></param>
+            <param name="cmdInsert"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblInvoiceDAO.SelectAllTblInvoice(System.DateTime,System.DateTime,System.Int32,System.Int32,System.Int32,SalesTrackerAPI.Models.TblUserRoleTO,System.String,System.Int32)">
+            <summary>
+            Ramdas.w @24102017 this method is  Get Generated Invoice List
+            </summary>
+            <param name="fromDate"></param>
+            <param name="toDate"></param>
+            <param name="isConfirm"></param>
+            <param name="cnfId"></param>
+            <param name="dealerID"></param>
+            <param name="userRoleTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblInvoiceDAO.SelectTblInvoiceByStatus(System.Int32,System.Int32,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Ramdas.W:@22092017:API This method is used to Get List of Invoice By Status
+            </summary>
+            <param name="StatusId"></param>
+            <param name="distributorOrgId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblInvoiceDAO.SelectInvoiceListFromLoadingSlipIds(System.String,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Saket [2018-11-05] Added.
+            </summary>
+            <param name="loadingSlipIds"></param>
+            <param name="conn"></param>
+            <param name="tran"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblInvoiceDAO.SelectAllRptInvoiceList(System.DateTime,System.DateTime,System.Int32,System.String)">
+            <summary>
+            Vijaymala[15-09-2017] Added To Get Invoice List To Generate Report
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblInvoiceDAO.ConvertDTToListForRPTInvoice(System.Data.SqlClient.SqlDataReader)">
+            <summary>
+            Vijaymala[15-09-2017] Added This method to convert dt to rpt invoice List
+            </summary>
+            <param name="tblInvoiceRptTODT"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblInvoiceDAO.SelectInvoiceExportList(System.DateTime,System.DateTime,System.Int32,System.String)">
+            <summary>
+            Vijaymala[06-10-2017] Added To Get Invoice List To Generate Invoice Excel
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblInvoiceDAO.SelectHsnExportList(System.DateTime,System.DateTime,System.Int32,System.String)">
+            <summary>
+            Vijaymala[07-10-2017] Added To Get Invoice List To Generate HSN Excel
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblInvoiceDAO.SelectSalesInvoiceListForReport(System.DateTime,System.DateTime,System.Int32,System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Vijaymala[11-01-2018] Added To Get Sales Invoice List To Generate Report
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblInvoiceDAO.SelectAllTNotifiedblInvoiceList(System.DateTime,System.DateTime,System.Int32,System.String)">
+            <summary>
+            Vijaymala added [09-05-2018]:To get notified invoices list
+            </summary>
+            <param name="tblInvoiceTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblInvoiceDAO.SelectOtherTaxDetailsReport(System.DateTime,System.DateTime,System.Int32,System.Int32,System.String)">
+            <summary>
+            Priyanka [26-03-2018] : Added to get the other tax report in (TAX INVOICE).
+            </summary>
+            <param name="frmDt"></param>
+            <param name="toDt"></param>
+            <param name="isConfirm"></param>
+            <param name="otherTaxId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblInvoiceDAO.ConvertDTToListForRPTWBReport(System.Data.SqlClient.SqlDataReader)">
+            <summary>
+            Minal[02-April-2021] Added This method to convert dt to rpt WB Report List
+            </summary>
+            <param name="tblInvoiceRptTODT"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblInvoiceHistoryDAO.ExecuteDeletionCommandByInvoiceId(System.Int32,System.Data.SqlClient.SqlCommand)">
+            <summary>
+            /// Vijaymala [17-04-2018]:added to delete invoice history by invoice id
+            </summary>
+            <param name="invoiceId"></param>
+            <param name="cmdDelete"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblInvoiceItemDetailsDAO.SelectTblInvoiceItemDetailsTOByInvoice(System.Int32)">
+            <summary>
+            Ramdas.w @14-12-2017 : get other Tax by Invoice 
+            </summary>
+            <param name="idInvoice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblInvoiceItemDetailsDAO.DeleteTblInvoiceItemDetailsByInvoiceId(System.Int32,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+             Vijaymala [17-04-2018]:added to delete invoice item by invoice id
+            </summary>
+            <param name="invoiceId"></param>
+            <param name="conn"></param>
+            <param name="tran"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblInvoiceItemDetailsDAO.ExecuteDeletionCommandByInvoiceId(System.Int32,System.Data.SqlClient.SqlCommand)">
+            <summary>
+            Vijaymala [17-04-2018]:added to delete invoice item by invoice id 
+            </summary>
+            <param name="invoiceId"></param>
+            <param name="cmdDelete"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblInvoiceOtherDetailsDAO.SelectInvoiceOtherDetails(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="tblInvoiceOtherDetailsTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblLoadingSlipDAO.SelectAllNotifiedTblLoadingList(System.DateTime,System.DateTime,System.Int32,System.String)">
+            <summary>
+            Vijaymala [08-05-2018] added to get notified loading list withiin period 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblLoadingSlipDAO.SelectModbusRefIdWrtLoadingSlipIdDCT(System.String)">
+            <summary>
+            Vijaymala [08-05-2018] added to get notified loading list withiin period 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblLoadingSlipDtlDAO.SelectAllLoadingSlipDtlListFromBookingId(System.Int32,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Vijaymala added [24-04-2018]:added to get loading slip details from bookingId
+            </summary>
+            <param name="bookingId"></param>
+            <param name="conn"></param>
+            <param name="tran"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblLoadingSlipExtDAO.SelectLoadingWiseExtRecordCountDCT">
+            <summary>
+             Sanjay [2017-12-18] It ll return record count against each loading. For the status of Vehicle IN i.e Gate In
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblMaterialDAO.SelectMaterialTypeDropDownList">
+            <summary>
+            Vijaymala[12-09-2017] Added To Get Material Type List
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:SalesTrackerAPI.DAL.TblOrganizationDAO.SelectDealerListForDropDownForCRM(System.Int32,SalesTrackerAPI.Models.TblUserRoleTO)" -->
+        <member name="M:SalesTrackerAPI.DAL.TblOverdueDtlDAO.DeleteTblOverdueDtl(System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            [11-12-2017]Vijaymala: Added to delete previous overdue details
+            </summary>
+            <param name="conn"></param>
+            <param name="tran"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblParityDetailsDAO.SelectAllParityDetailsOnProductItemId(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Priyanka [14-09-2018] Added for get List Based on productItemId for other Item Parity Details
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblParityDetailsDAO.SelectParityDetailToListOnBooking(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.DateTime)">
+            <summary>
+            Sudhir[23-MARCH-2018] Added for Get ParityDetail List based on Booking DateTime and Other Combination
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblParityDetailsDAO.SelectParityDetailToListOnBooking(System.Int32,System.DateTime)">
+            <summary>
+            Vijaymala[19-06-2018] Added for Get ParityDetail List based on Booking DateTime and state id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblParityDetailsDAO.DeactivateAllParityDetailsForUpdate(SalesTrackerAPI.Models.TblParityDetailsTO,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Sudhir[21-MARCH-2018] Added for Deactivating Related Parity Details Record  
+            </summary>
+            <param name="brandId"></param>
+            <param name="productItemId"></param>
+            <param name="conn"></param>
+            <param name="tran"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblPersonDAO.SelectDropDownListOnPersonId(System.Int32)">
+            <summary>
+            Sudhir[21-JUNE-2018] 
+            </summary>
+            <param name="personId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblPersonDAO.SelectPersonsBasedOnOrgType(System.Int32)">
+            <summary>
+            Sudhir[23-APR-2018] Added for Get Persons Based on Orgaization Type.
+            </summary>
+            <param name="tblPersonTODT"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblPersonDAO.SelectAllTblPersonByBirthdayAnniversory(System.DateTime,System.Int32,System.Int32)">
+            Birthdays or anniversory notifications - Tejaswini
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblProdClassificationDAO.SelectAllTblProdClassification(System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction,System.String)">
+            <summary>
+            Priyanka[23-02-2018] added connection, transaction.
+            </summary>
+            <param name="conn"></param>
+            <param name="tran"></param>
+            <param name="prodClassType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblPurchaseCompetitorExtDAO.SelectAllTblPurchaseCompetitorExt(System.Int32,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+             Priyanka [16-02-18] : Added to get purchase competitor details.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblRoleDAO.SelectTblRoleOnOrgStructureId(System.Int32,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Sudhir[22-AUG-2018] Added Connection , Trannsaction
+            </summary>
+            <param name="OrgStructureId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblUnLoadingItemDetDAO.SelectAllUnLoadingItemDetails(System.Int32)">
+            <summary>
+            Vaibhav [13-Sep-2017] Added to select unloadingitem details of specific unloading slip
+            </summary>
+            <param name="unLoadingId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblUserLocationDAO.SelectActualPlanRoute(System.Int32)">
+            <summary>
+            Sudhir[14-AUG-2018] Added For Actual Plan 
+            </summary>
+            <param name="tblUserLocationTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblUserLocationDAO.SelectSuggestedPlanRoute(System.Int32)">
+            <summary>
+            Sudhir[14-AUG-2018] Added For Suggested Plan 
+            </summary>
+            <param name="tblUserLocationTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblUserLocationDAO.SelectNearByDealer(System.Int32,System.Int32,SalesTrackerAPI.Models.TblUserRoleTO)">
+            <summary>
+            Sudhir[14-AUG-2018] Added For Get Nearest Dealer Visit.
+            </summary>
+            <param name="distance"></param>
+            <param name="cnfId"></param>
+            <param name="tblUserRoleTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TblUserRoleDAO.SelectAllActiveUserRole(System.Int32,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Sudhir[22-AUG-2018] Added Connection , Transaction
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalesTrackerAPI.DAL.TempInvoiceDocumentDetailsDAO.ExecuteDeletionCommandByInvoiceId(System.Int32,System.Data.SqlClient.SqlCommand)">
+            <summary>
+            /// Vijaymala [28-05-2018]:added to delete invoice document details by invoice id
+            </summary>
+            <param name="invoiceId"></param>
+            <param name="cmdDelete"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SalesTrackerAPI.Models.DropDownTO">
+            <summary>
+            Sanjay [2017-02-10] This Model is used to return the values to caller
+            when dimensions needs to be shown in DropDown
+            </summary>
+        </member>
+        <member name="P:SalesTrackerAPI.Models.DropDownTO.Value">
+            <summary>
+            Sanjay [2017-02-10] To Hold the Id of the Dropdown
+            </summary>
+        </member>
+        <member name="P:SalesTrackerAPI.Models.DropDownTO.Text">
+            <summary>
+            Sanjay [2017-02-10] To Hold the Text to be shown in dropdown
+            </summary>
+        </member>
+        <member name="P:SalesTrackerAPI.Models.AlertsToReset.AlertDefIdList">
+            <summary>
+            Sanjay [21 Sept 2018] This is List of AlertDefId To Reset Alert. It can be null
+            </summary>
+        </member>
+        <member name="P:SalesTrackerAPI.Models.AlertsToReset.ResetAlertInstanceTOList">
+            <summary>
+            Sanjay [21 Sept 2018] This is Dictionary of AlertDefId and Source Entity Txn Id To Reset Alert. It can be null
+            </summary>
+        </member>
+        <member name="P:SalesTrackerAPI.Models.TblBookingScheduleTO.DeliveryAddressLst">
+            <summary>
+            [2017-14-12] Vijaymala :Added To Get data In Post action
+            </summary>
+        </member>
+        <member name="P:SalesTrackerAPI.Models.TblBookingScheduleTO.OrderDetailsLst">
+            <summary>
+            [2017-14-12] Vijaymala :Added To Get data In Post action
+            </summary>
+        </member>
+        <member name="P:SalesTrackerAPI.Models.TblBookingsTO.PendingQty">
+            <summary>
+            Sanjay [2017-02-17] This is pending qty for loading
+            </summary>
+        </member>
+        <member name="P:SalesTrackerAPI.Models.TblBookingsTO.DeliveryAddressLst">
+            <summary>
+            Sanjay [2017-02-11] To Get data In Post action
+            </summary>
+        </member>
+        <member name="P:SalesTrackerAPI.Models.TblBookingsTO.OrderDetailsLst">
+            <summary>
+            Sanjay [2017-02-11] To Get data In Post action
+            </summary>
+        </member>
+        <member name="P:SalesTrackerAPI.Models.TblBookingsTO.ParityId">
+            <summary>
+            Sanjay [2017-04-21] added after alpha release
+            after discussion with Customer (Nitin Kabra)
+            New Requirement
+            </summary>
+        </member>
+        <member name="P:SalesTrackerAPI.Models.TblLoadingSlipDtlTO.IdBooking">
+            <summary>
+            Sanjay [2017-02-27] This is same property as bookingId. But while serializing when got from UI
+            it naming is changed. As on UI bookingTO is shown.
+            </summary>
+        </member>
+        <member name="P:SalesTrackerAPI.Models.TblLoadingSlipTO.DeliveryAddressTOList">
+            <summary>
+            Sanjay [2017-03-06] To Record Addresses for each loading slip.
+            Addresses may vary accroding to loading layers
+            </summary>
+        </member>
+        <member name="P:SalesTrackerAPI.Models.TblLoadingSlipTO.OrcAmt">
+            <summary>
+            Priyanka [05-03-2018]
+            </summary>
+        </member>
+        <member name="P:SalesTrackerAPI.Models.TblLoadingTO.FreightAmt">
+            <summary>
+            Sanjay [2017-04-04] Added while creating loading slip.
+            This is Freight Charge Amt with Rs/MT(Metric Ton)
+            </summary>
+        </member>
+        <member name="P:SalesTrackerAPI.Models.TblLoadingTO.TransporterOrgName">
+            <summary>
+            Sanjay [2017-04-04] Added while creating loading slip.
+            This is Transporter Name Of the vehicle selected while loading
+            </summary>
+        </member>
+        <member name="P:SalesTrackerAPI.Models.TblMaterialTO.DisplaySequence">
+            <summary>
+            Sanjay [03 Aug 2018] To Show material sequencewise. E.g Stock Summary view
+            </summary>
+        </member>
+        <member name="P:SalesTrackerAPI.Models.TblModuleTO.NoOfAllowedLicenseCnt">
+            <summary>
+            Sanjay [25-Feb-2019] User Subscription Management
+            </summary>
+        </member>
+        <member name="P:SalesTrackerAPI.Models.TblModuleTO.NoOfConfiguredLicenseCnt">
+            <summary>
+            Sanjay [25-Feb-2019] User Subscription Management
+            </summary>
+        </member>
+        <member name="P:SalesTrackerAPI.Models.TblModuleTO.NoOfActiveLicenseCnt">
+            <summary>
+            Sanjay [25-Feb-2019] User Subscription Management
+            </summary>
+        </member>
+        <member name="F:SalesTrackerAPI.Models.TblOrganizationTO.orgLogo">
+             <summary>
+             Vijaymla Added to set organization logo,other details bank details for  invoice print
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:SalesTrackerAPI.Models.TblOrganizationTO.LastAllocQty" -->
+        <!-- Badly formed XML comment ignored for member "P:SalesTrackerAPI.Models.TblOrganizationTO.LastRateBand" -->
+        <member name="P:SalesTrackerAPI.Models.TblOrganizationTO.DeclaredRate">
+            <summary>
+            Sanjay [2017-02-10] This is not DB Field or Organization.
+            When data is posted then it should in single Object Model.
+            This will be saved into global rate declaration.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:SalesTrackerAPI.Models.TblOrganizationTO.BalanceQuota" -->
+        <!-- Badly formed XML comment ignored for member "P:SalesTrackerAPI.Models.TblOrganizationTO.ValidUpto" -->
+        <member name="P:SalesTrackerAPI.Models.TblOrganizationTO.OrgLogo">
+            <summary>
+            Vijaymala [2017-30-10] added this field to save organization logo,invoice other details like
+            declaration or terms and condition used in footer of invoice print
+            </summary>
+            
+        </member>
+        <member name="P:SalesTrackerAPI.Models.TblOrganizationTO.PurchaseCompetitorExtTOList">
+            <summary>
+            Priyanka [19-02-18] added for store the purchase competitor material and grade details.
+            </summary>
+        </member>
+        <member name="P:SalesTrackerAPI.Models.TblWeighingMachineTO.PortNumber">
+            <summary>
+            //@07-12-2018 kiran Addded for Iot changes
+            </summary>
+        </member>
+        <member name="P:SalesTrackerAPI.Models.TblWeighingMachineTO.IoTUrl">
+            <summary>
+            //@07-12-2018 kiran Addded for Iot changes
+            </summary>
+        </member>
+        <member name="M:SalesTrackerAPI.StaticStuff.Constants.GetSqlDataValueNullForBaseValue(System.Object)">
+            <summary>
+            if it is integer and zero then will return DBNull.Value
+            if it is double and zero then will return DBNull.Value
+            if it is datetime and is 1/1/1 then will return DBNull.Value
+            
+            </summary>
+            <param name="cSharpDataValue"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SalesTrackerAPI.StaticStuff.Constants.TxnOperationTypeE">
+            <summary>
+            Sanjay [2017-03-06] To Maintain the historical record for any transactional records
+            </summary>
+        </member>
+        <member name="T:SalesTrackerAPI.StaticStuff.Constants.invoiceOtherDetailsTypeE">
+            <summary>
+            Vijaymala[31-10-2017]Added To Set Details Type for invoice other details
+            </summary>
+        </member>
+        <member name="T:SalesTrackerAPI.StaticStuff.Constants.ItemProdCategoryE">
+            <summary>
+            Sanjay [2018-02-19] To Define Item Product Categories
+            Was Required to distiguish between Finished Good and Scrap
+            </summary>
+            <remarks> Enum for Item Product Categories Of The System</remarks>
+        </member>
+        <member name="T:SalesTrackerAPI.StaticStuff.Constants.EInvoiceAPIE">
+            <summary>
+            Dhananjay [2020-11-19] For EInvoice API
+            </summary>
+        </member>
+        <member name="T:SalesTrackerAPI.StaticStuff.Constants.EGenerateEInvoiceCreationType">
+            <summary>
+            Aditee [04-01-2021] for generate invoice flag for Address Update
+            </summary>
+        </member>
+        <member name="F:SalesTrackerAPI.StaticStuff.Constants.EINVOICE_AUTHENTICATE">
+            <summary>
+            Dhananjay [2021-01-02] For EInvoice API
+            </summary>
+        </member>
+        <member name="F:SalesTrackerAPI.StaticStuff.Constants.secsToBeDeductededFromTokenExpTime">
+            <summary>
+            Dhananjay [2020-11-19] For EInvoice API
+            </summary>
+        </member>
+        <member name="P:SalesTrackerAPI.StaticStuff.ResultMessage.DisplayMessage">
+            <summary>
+            Sanjay [2017-05-30] Property added to Show Error occcurs at server side to User in proper format
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,15 @@
+D:\SimpliWorks\SimpliDeliver\Simpli Deliver(BRM)\API\STAPIcode\SalesTrackerAPI\bin\Debug\netcoreapp2.0\SalesTrackerAPI.xml
+D:\SimpliWorks\SimpliDeliver\Simpli Deliver(BRM)\API\STAPIcode\SalesTrackerAPI\bin\Debug\netcoreapp2.0\SalesTrackerAPI.deps.json
+D:\SimpliWorks\SimpliDeliver\Simpli Deliver(BRM)\API\STAPIcode\SalesTrackerAPI\bin\Debug\netcoreapp2.0\SalesTrackerAPI.runtimeconfig.json
+D:\SimpliWorks\SimpliDeliver\Simpli Deliver(BRM)\API\STAPIcode\SalesTrackerAPI\bin\Debug\netcoreapp2.0\SalesTrackerAPI.runtimeconfig.dev.json
+D:\SimpliWorks\SimpliDeliver\Simpli Deliver(BRM)\API\STAPIcode\SalesTrackerAPI\bin\Debug\netcoreapp2.0\SalesTrackerAPI.dll
+D:\SimpliWorks\SimpliDeliver\Simpli Deliver(BRM)\API\STAPIcode\SalesTrackerAPI\bin\Debug\netcoreapp2.0\SalesTrackerAPI.pdb
+D:\SimpliWorks\SimpliDeliver\Simpli Deliver(BRM)\API\STAPIcode\SalesTrackerAPI\bin\Debug\netcoreapp2.0\Interop.SAPbobsCOM.dll
+D:\SimpliWorks\SimpliDeliver\Simpli Deliver(BRM)\API\STAPIcode\SalesTrackerAPI\obj\Debug\netcoreapp2.0\SalesTrackerAPI.csprojAssemblyReference.cache
+D:\SimpliWorks\SimpliDeliver\Simpli Deliver(BRM)\API\STAPIcode\SalesTrackerAPI\obj\Debug\netcoreapp2.0\SalesTrackerAPI.csproj.CoreCompileInputs.cache
+D:\SimpliWorks\SimpliDeliver\Simpli Deliver(BRM)\API\STAPIcode\SalesTrackerAPI\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\SimpliWorks\SimpliDeliver\Simpli Deliver(BRM)\API\STAPIcode\SalesTrackerAPI\obj\Debug\netcoreapp2.0\SalesTrackerAPI.AssemblyInfoInputs.cache
+D:\SimpliWorks\SimpliDeliver\Simpli Deliver(BRM)\API\STAPIcode\SalesTrackerAPI\obj\Debug\netcoreapp2.0\SalesTrackerAPI.AssemblyInfo.cs
+D:\SimpliWorks\SimpliDeliver\Simpli Deliver(BRM)\API\STAPIcode\SalesTrackerAPI\obj\Debug\netcoreapp2.0\SalesTrackerAPI.csproj.CopyComplete
+D:\SimpliWorks\SimpliDeliver\Simpli Deliver(BRM)\API\STAPIcode\SalesTrackerAPI\obj\Debug\netcoreapp2.0\SalesTrackerAPI.dll
+D:\SimpliWorks\SimpliDeliver\Simpli Deliver(BRM)\API\STAPIcode\SalesTrackerAPI\obj\Debug\netcoreapp2.0\SalesTrackerAPI.pdb
